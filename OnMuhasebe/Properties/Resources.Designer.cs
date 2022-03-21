@@ -73,6 +73,16 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addnewdatasource_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("addnewdatasource_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap breakingchange_16x16 {
             get {
                 object obj = ResourceManager.GetObject("breakingchange_16x16", resourceCulture);
@@ -153,6 +163,36 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("close_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap customer_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("customer_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deletedatasource2_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("deletedatasource2_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap insertblanklinepivottable_16x16 {
             get {
                 object obj = ResourceManager.GetObject("insertblanklinepivottable_16x16", resourceCulture);
@@ -186,6 +226,26 @@ namespace OnMuhasebe.Properties {
         internal static System.Drawing.Bitmap insertblanklinepivottable_32x321 {
             get {
                 object obj = ResourceManager.GetObject("insertblanklinepivottable_32x321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lookup_reference_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("lookup&reference_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lookup_reference_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("lookup&reference_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +326,16 @@ namespace OnMuhasebe.Properties {
         internal static System.Drawing.Bitmap pageinfo_32x32 {
             get {
                 object obj = ResourceManager.GetObject("pageinfo_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("save_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
