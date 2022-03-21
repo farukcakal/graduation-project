@@ -41,46 +41,46 @@ namespace OnMuhasebe.CariModulu
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioAlici = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit10 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.radioSatici = new System.Windows.Forms.RadioButton();
+            this.radioDiger = new System.Windows.Forms.RadioButton();
+            this.btnKapat = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
+            this.btnYeni = new DevExpress.XtraEditors.SimpleButton();
+            this.txtAdres = new DevExpress.XtraEditors.MemoEdit();
+            this.btnSec = new DevExpress.XtraEditors.SimpleButton();
+            this.txtWeb = new DevExpress.XtraEditors.TextEdit();
+            this.txtVKN = new DevExpress.XtraEditors.TextEdit();
+            this.txtFax = new DevExpress.XtraEditors.TextEdit();
+            this.txtIlce = new DevExpress.XtraEditors.TextEdit();
+            this.txtPostaKodu = new DevExpress.XtraEditors.TextEdit();
+            this.txtEmail = new DevExpress.XtraEditors.TextEdit();
+            this.txtTCKN = new DevExpress.XtraEditors.TextEdit();
+            this.txtVD = new DevExpress.XtraEditors.TextEdit();
+            this.txtUlke = new DevExpress.XtraEditors.TextEdit();
+            this.txtTelefon = new DevExpress.XtraEditors.TextEdit();
+            this.txtIl = new DevExpress.XtraEditors.TextEdit();
+            this.txtCariIsim = new DevExpress.XtraEditors.TextEdit();
+            this.txtCariKodu = new DevExpress.XtraEditors.TextEdit();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAdres.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtWeb.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVKN.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFax.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlce.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPostaKodu.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEmail.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTCKN.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVD.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtUlke.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTelefon.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIl.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariKodu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,10 +133,10 @@ namespace OnMuhasebe.CariModulu
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.simpleButton5);
-            this.panel2.Controls.Add(this.simpleButton4);
-            this.panel2.Controls.Add(this.simpleButton3);
-            this.panel2.Controls.Add(this.simpleButton2);
+            this.panel2.Controls.Add(this.btnKapat);
+            this.panel2.Controls.Add(this.btnSil);
+            this.panel2.Controls.Add(this.btnKaydet);
+            this.panel2.Controls.Add(this.btnYeni);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 399);
             this.panel2.Name = "panel2";
@@ -198,16 +198,16 @@ namespace OnMuhasebe.CariModulu
             this.label10.Text = "e-Mail / Web";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // radioButton1
+            // radioAlici
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(91, 361);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(43, 17);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Alıcı";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioAlici.AutoSize = true;
+            this.radioAlici.Location = new System.Drawing.Point(91, 361);
+            this.radioAlici.Name = "radioAlici";
+            this.radioAlici.Size = new System.Drawing.Size(43, 17);
+            this.radioAlici.TabIndex = 6;
+            this.radioAlici.TabStop = true;
+            this.radioAlici.Text = "Alıcı";
+            this.radioAlici.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -219,169 +219,169 @@ namespace OnMuhasebe.CariModulu
             this.label11.Text = "Cari Tipi";
             this.label11.Click += new System.EventHandler(this.label10_Click);
             // 
-            // radioButton2
+            // radioSatici
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(177, 361);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 17);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Satıcı";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioSatici.AutoSize = true;
+            this.radioSatici.Location = new System.Drawing.Point(177, 361);
+            this.radioSatici.Name = "radioSatici";
+            this.radioSatici.Size = new System.Drawing.Size(50, 17);
+            this.radioSatici.TabIndex = 6;
+            this.radioSatici.TabStop = true;
+            this.radioSatici.Text = "Satıcı";
+            this.radioSatici.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioDiger
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(268, 361);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(50, 17);
-            this.radioButton3.TabIndex = 6;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Diğer";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioDiger.AutoSize = true;
+            this.radioDiger.Location = new System.Drawing.Point(268, 361);
+            this.radioDiger.Name = "radioDiger";
+            this.radioDiger.Size = new System.Drawing.Size(50, 17);
+            this.radioDiger.TabIndex = 6;
+            this.radioDiger.TabStop = true;
+            this.radioDiger.Text = "Diğer";
+            this.radioDiger.UseVisualStyleBackColor = true;
             // 
-            // simpleButton5
+            // btnKapat
             // 
-            this.simpleButton5.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.close_16x16;
-            this.simpleButton5.Location = new System.Drawing.Point(614, 6);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(75, 41);
-            this.simpleButton5.TabIndex = 3;
-            this.simpleButton5.Text = "Kapat \r\n[ESC]";
+            this.btnKapat.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.close_16x16;
+            this.btnKapat.Location = new System.Drawing.Point(614, 6);
+            this.btnKapat.Name = "btnKapat";
+            this.btnKapat.Size = new System.Drawing.Size(75, 41);
+            this.btnKapat.TabIndex = 3;
+            this.btnKapat.Text = "Kapat \r\n[ESC]";
             // 
-            // simpleButton4
+            // btnSil
             // 
-            this.simpleButton4.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.deletedatasource2_16x16;
-            this.simpleButton4.Location = new System.Drawing.Point(533, 6);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(75, 41);
-            this.simpleButton4.TabIndex = 2;
-            this.simpleButton4.Text = "Sil";
+            this.btnSil.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.deletedatasource2_16x16;
+            this.btnSil.Location = new System.Drawing.Point(533, 6);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(75, 41);
+            this.btnSil.TabIndex = 2;
+            this.btnSil.Text = "Sil";
             // 
-            // simpleButton3
+            // btnKaydet
             // 
-            this.simpleButton3.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.save_16x16;
-            this.simpleButton3.Location = new System.Drawing.Point(452, 6);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(75, 41);
-            this.simpleButton3.TabIndex = 1;
-            this.simpleButton3.Text = "Kaydet";
+            this.btnKaydet.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.save_16x16;
+            this.btnKaydet.Location = new System.Drawing.Point(452, 6);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(75, 41);
+            this.btnKaydet.TabIndex = 1;
+            this.btnKaydet.Text = "Kaydet";
             // 
-            // simpleButton2
+            // btnYeni
             // 
-            this.simpleButton2.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.addnewdatasource_16x16;
-            this.simpleButton2.Location = new System.Drawing.Point(371, 6);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 41);
-            this.simpleButton2.TabIndex = 0;
-            this.simpleButton2.Text = "Yeni";
+            this.btnYeni.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.addnewdatasource_16x16;
+            this.btnYeni.Location = new System.Drawing.Point(371, 6);
+            this.btnYeni.Name = "btnYeni";
+            this.btnYeni.Size = new System.Drawing.Size(75, 41);
+            this.btnYeni.TabIndex = 0;
+            this.btnYeni.Text = "Yeni";
             // 
-            // memoEdit1
+            // txtAdres
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(91, 123);
-            this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(592, 71);
-            this.memoEdit1.TabIndex = 4;
+            this.txtAdres.Location = new System.Drawing.Point(91, 123);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(592, 71);
+            this.txtAdres.TabIndex = 4;
             // 
-            // simpleButton1
+            // btnSec
             // 
-            this.simpleButton1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.lookup_reference_16x16;
-            this.simpleButton1.Location = new System.Drawing.Point(421, 69);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(22, 23);
-            this.simpleButton1.TabIndex = 3;
+            this.btnSec.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.lookup_reference_16x16;
+            this.btnSec.Location = new System.Drawing.Point(421, 69);
+            this.btnSec.Name = "btnSec";
+            this.btnSec.Size = new System.Drawing.Size(22, 23);
+            this.btnSec.TabIndex = 3;
             // 
-            // textEdit13
+            // txtWeb
             // 
-            this.textEdit13.Location = new System.Drawing.Point(284, 330);
-            this.textEdit13.Name = "textEdit13";
-            this.textEdit13.Size = new System.Drawing.Size(399, 20);
-            this.textEdit13.TabIndex = 2;
+            this.txtWeb.Location = new System.Drawing.Point(284, 330);
+            this.txtWeb.Name = "txtWeb";
+            this.txtWeb.Size = new System.Drawing.Size(399, 20);
+            this.txtWeb.TabIndex = 2;
             // 
-            // textEdit9
+            // txtVKN
             // 
-            this.textEdit9.Location = new System.Drawing.Point(284, 252);
-            this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(209, 20);
-            this.textEdit9.TabIndex = 2;
+            this.txtVKN.Location = new System.Drawing.Point(284, 252);
+            this.txtVKN.Name = "txtVKN";
+            this.txtVKN.Size = new System.Drawing.Size(209, 20);
+            this.txtVKN.TabIndex = 2;
             // 
-            // textEdit7
+            // txtFax
             // 
-            this.textEdit7.Location = new System.Drawing.Point(284, 226);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(209, 20);
-            this.textEdit7.TabIndex = 2;
+            this.txtFax.Location = new System.Drawing.Point(284, 226);
+            this.txtFax.Name = "txtFax";
+            this.txtFax.Size = new System.Drawing.Size(209, 20);
+            this.txtFax.TabIndex = 2;
             // 
-            // textEdit5
+            // txtIlce
             // 
-            this.textEdit5.Location = new System.Drawing.Point(284, 200);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(209, 20);
-            this.textEdit5.TabIndex = 2;
+            this.txtIlce.Location = new System.Drawing.Point(284, 200);
+            this.txtIlce.Name = "txtIlce";
+            this.txtIlce.Size = new System.Drawing.Size(209, 20);
+            this.txtIlce.TabIndex = 2;
             // 
-            // textEdit11
+            // txtPostaKodu
             // 
-            this.textEdit11.Location = new System.Drawing.Point(91, 304);
-            this.textEdit11.Name = "textEdit11";
-            this.textEdit11.Size = new System.Drawing.Size(187, 20);
-            this.textEdit11.TabIndex = 2;
+            this.txtPostaKodu.Location = new System.Drawing.Point(91, 304);
+            this.txtPostaKodu.Name = "txtPostaKodu";
+            this.txtPostaKodu.Size = new System.Drawing.Size(187, 20);
+            this.txtPostaKodu.TabIndex = 2;
             // 
-            // textEdit12
+            // txtEmail
             // 
-            this.textEdit12.Location = new System.Drawing.Point(91, 330);
-            this.textEdit12.Name = "textEdit12";
-            this.textEdit12.Size = new System.Drawing.Size(187, 20);
-            this.textEdit12.TabIndex = 2;
+            this.txtEmail.Location = new System.Drawing.Point(91, 330);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(187, 20);
+            this.txtEmail.TabIndex = 2;
             // 
-            // textEdit10
+            // txtTCKN
             // 
-            this.textEdit10.Location = new System.Drawing.Point(91, 278);
-            this.textEdit10.Name = "textEdit10";
-            this.textEdit10.Size = new System.Drawing.Size(187, 20);
-            this.textEdit10.TabIndex = 2;
+            this.txtTCKN.Location = new System.Drawing.Point(91, 278);
+            this.txtTCKN.Name = "txtTCKN";
+            this.txtTCKN.Size = new System.Drawing.Size(187, 20);
+            this.txtTCKN.TabIndex = 2;
             // 
-            // textEdit8
+            // txtVD
             // 
-            this.textEdit8.Location = new System.Drawing.Point(91, 252);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(187, 20);
-            this.textEdit8.TabIndex = 2;
+            this.txtVD.Location = new System.Drawing.Point(91, 252);
+            this.txtVD.Name = "txtVD";
+            this.txtVD.Size = new System.Drawing.Size(187, 20);
+            this.txtVD.TabIndex = 2;
             // 
-            // textEdit4
+            // txtUlke
             // 
-            this.textEdit4.Location = new System.Drawing.Point(499, 200);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(184, 20);
-            this.textEdit4.TabIndex = 2;
+            this.txtUlke.Location = new System.Drawing.Point(499, 200);
+            this.txtUlke.Name = "txtUlke";
+            this.txtUlke.Size = new System.Drawing.Size(184, 20);
+            this.txtUlke.TabIndex = 2;
             // 
-            // textEdit6
+            // txtTelefon
             // 
-            this.textEdit6.Location = new System.Drawing.Point(91, 226);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(187, 20);
-            this.textEdit6.TabIndex = 2;
+            this.txtTelefon.Location = new System.Drawing.Point(91, 226);
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(187, 20);
+            this.txtTelefon.TabIndex = 2;
             // 
-            // textEdit3
+            // txtIl
             // 
-            this.textEdit3.Location = new System.Drawing.Point(91, 200);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(187, 20);
-            this.textEdit3.TabIndex = 2;
+            this.txtIl.Location = new System.Drawing.Point(91, 200);
+            this.txtIl.Name = "txtIl";
+            this.txtIl.Size = new System.Drawing.Size(187, 20);
+            this.txtIl.TabIndex = 2;
             // 
-            // textEdit2
+            // txtCariIsim
             // 
-            this.textEdit2.Location = new System.Drawing.Point(91, 97);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(592, 20);
-            this.textEdit2.TabIndex = 2;
+            this.txtCariIsim.Location = new System.Drawing.Point(91, 97);
+            this.txtCariIsim.Name = "txtCariIsim";
+            this.txtCariIsim.Size = new System.Drawing.Size(592, 20);
+            this.txtCariIsim.TabIndex = 2;
             // 
-            // textEdit1
+            // txtCariKodu
             // 
-            this.textEdit1.Location = new System.Drawing.Point(91, 71);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(324, 20);
-            this.textEdit1.TabIndex = 2;
+            this.txtCariKodu.Location = new System.Drawing.Point(91, 71);
+            this.txtCariKodu.Name = "txtCariKodu";
+            this.txtCariKodu.Size = new System.Drawing.Size(324, 20);
+            this.txtCariKodu.TabIndex = 2;
             // 
             // pictureBox1
             // 
@@ -398,34 +398,34 @@ namespace OnMuhasebe.CariModulu
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 451);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.radioDiger);
+            this.Controls.Add(this.radioSatici);
+            this.Controls.Add(this.radioAlici);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.memoEdit1);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.textEdit13);
-            this.Controls.Add(this.textEdit9);
-            this.Controls.Add(this.textEdit7);
-            this.Controls.Add(this.textEdit5);
-            this.Controls.Add(this.textEdit11);
-            this.Controls.Add(this.textEdit12);
-            this.Controls.Add(this.textEdit10);
-            this.Controls.Add(this.textEdit8);
-            this.Controls.Add(this.textEdit4);
+            this.Controls.Add(this.txtAdres);
+            this.Controls.Add(this.btnSec);
+            this.Controls.Add(this.txtWeb);
+            this.Controls.Add(this.txtVKN);
+            this.Controls.Add(this.txtFax);
+            this.Controls.Add(this.txtIlce);
+            this.Controls.Add(this.txtPostaKodu);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtTCKN);
+            this.Controls.Add(this.txtVD);
+            this.Controls.Add(this.txtUlke);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.txtTelefon);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textEdit3);
+            this.Controls.Add(this.txtIl);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textEdit2);
+            this.Controls.Add(this.txtCariIsim);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.txtCariKodu);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "frmCariTanitimKarti";
@@ -433,20 +433,20 @@ namespace OnMuhasebe.CariModulu
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAdres.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtWeb.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVKN.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFax.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlce.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPostaKodu.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEmail.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTCKN.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVD.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtUlke.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTelefon.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIl.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariKodu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -458,38 +458,38 @@ namespace OnMuhasebe.CariModulu
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.TextEdit txtCariKodu;
+        private DevExpress.XtraEditors.SimpleButton btnSec;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.MemoEdit memoEdit1;
+        private DevExpress.XtraEditors.TextEdit txtCariIsim;
+        private DevExpress.XtraEditors.MemoEdit txtAdres;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton btnKapat;
+        private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnKaydet;
+        private DevExpress.XtraEditors.SimpleButton btnYeni;
         private System.Windows.Forms.Label label5;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
+        private DevExpress.XtraEditors.TextEdit txtIl;
+        private DevExpress.XtraEditors.TextEdit txtUlke;
+        private DevExpress.XtraEditors.TextEdit txtIlce;
         private System.Windows.Forms.Label label6;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
+        private DevExpress.XtraEditors.TextEdit txtTelefon;
+        private DevExpress.XtraEditors.TextEdit txtFax;
         private System.Windows.Forms.Label label7;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
-        private DevExpress.XtraEditors.TextEdit textEdit9;
+        private DevExpress.XtraEditors.TextEdit txtVD;
+        private DevExpress.XtraEditors.TextEdit txtVKN;
         private System.Windows.Forms.Label label8;
-        private DevExpress.XtraEditors.TextEdit textEdit10;
+        private DevExpress.XtraEditors.TextEdit txtTCKN;
         private System.Windows.Forms.Label label9;
-        private DevExpress.XtraEditors.TextEdit textEdit11;
+        private DevExpress.XtraEditors.TextEdit txtPostaKodu;
         private System.Windows.Forms.Label label10;
-        private DevExpress.XtraEditors.TextEdit textEdit12;
-        private DevExpress.XtraEditors.TextEdit textEdit13;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private DevExpress.XtraEditors.TextEdit txtEmail;
+        private DevExpress.XtraEditors.TextEdit txtWeb;
+        private System.Windows.Forms.RadioButton radioAlici;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioSatici;
+        private System.Windows.Forms.RadioButton radioDiger;
     }
 }
