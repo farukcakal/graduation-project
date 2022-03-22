@@ -65,16 +65,16 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="CekSenetModulu\Class1.cs" />
-    <Compile Include="CekSenetModulu\formCekMusteri.cs">
+    <Compile Include="CekSenetModulu\Cek\formCekMusteri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CekSenetModulu\formCekMusteri.Designer.cs">
+    <Compile Include="CekSenetModulu\Cek\formCekMusteri.Designer.cs">
       <DependentUpon>formCekMusteri.cs</DependentUpon>
     </Compile>
-    <Compile Include="CekSenetModulu\formMusteriCekBodrosu.cs">
+    <Compile Include="CekSenetModulu\Cek\formMusteriCekBodrosu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CekSenetModulu\formMusteriCekBodrosu.Designer.cs">
+    <Compile Include="CekSenetModulu\Cek\formMusteriCekBodrosu.Designer.cs">
       <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
     </Compile>
     <Compile Include="FaturaModulu\Class1.cs" />
@@ -86,14 +86,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaporModulu\frmRapCariHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaporModulu\frmRapCariHareket.Designer.cs">
+      <DependentUpon>frmRapCariHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaporModulu\frmRapStokHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaporModulu\frmRapStokHareket.Designer.cs">
+      <DependentUpon>frmRapStokHareket.cs</DependentUpon>
+    </Compile>
     <Compile Include="StokModulu\Class1.cs" />
     <EmbeddedResource Include="CariModulu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CekSenetModulu\formCekMusteri.resx">
+    <EmbeddedResource Include="CekSenetModulu\Cek\formCekMusteri.resx">
       <DependentUpon>formCekMusteri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CekSenetModulu\formMusteriCekBodrosu.resx">
+    <EmbeddedResource Include="CekSenetModulu\Cek\formMusteriCekBodrosu.resx">
       <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAnaSayfa.resx">
@@ -110,6 +122,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RaporModulu\frmRapCariHareket.resx">
+      <DependentUpon>frmRapCariHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaporModulu\frmRapStokHareket.resx">
+      <DependentUpon>frmRapStokHareket.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -207,6 +225,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\trash_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CekSenetModulu\Senet\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearall_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
