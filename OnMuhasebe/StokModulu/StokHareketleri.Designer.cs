@@ -7,6 +7,7 @@ namespace OnMuhasebe.StokModulu
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+        
 
         /// <summary>
         /// Clean up any resources being used.
@@ -74,7 +75,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // btn_Search_Stok_Hareket
             // 
-            this.btn_Search_Stok_Hareket.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.lookup_reference_32x321;
+            this.btn_Search_Stok_Hareket.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.breakingchange_32x321;
             this.btn_Search_Stok_Hareket.Location = new System.Drawing.Point(494, 41);
             this.btn_Search_Stok_Hareket.Name = "btn_Search_Stok_Hareket";
             this.btn_Search_Stok_Hareket.Size = new System.Drawing.Size(58, 39);
