@@ -1,4 +1,10 @@
-﻿namespace OnMuhasebe.BankaModulu
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OnMuhasebe.BankaModulu
 {
     class Class1
     {
