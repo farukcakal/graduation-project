@@ -397,8 +397,7 @@ namespace OnMuhasebe.StokModulu
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.Enabled = false;
-            //this.simpleButton1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.record_32x32;
-            
+            this.simpleButton1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.record_32x32;
             this.simpleButton1.Location = new System.Drawing.Point(84, 31);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(347, 45);
@@ -407,7 +406,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // sb_Güncelle
             // 
-            //this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
+            this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
             this.sb_Güncelle.Location = new System.Drawing.Point(617, 405);
             this.sb_Güncelle.Name = "sb_Güncelle";
             this.sb_Güncelle.Size = new System.Drawing.Size(187, 62);
@@ -416,7 +415,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // sb_Delete
             // 
-            //this.sb_Delete.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.removepivotfield_32x32;
+            this.sb_Delete.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.removepivotfield_32x32;
             this.sb_Delete.Location = new System.Drawing.Point(729, 328);
             this.sb_Delete.Name = "sb_Delete";
             this.sb_Delete.Size = new System.Drawing.Size(75, 61);
@@ -425,7 +424,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // sb_Save
             // 
-           // this.sb_Save.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.saveto_32x32;
+            this.sb_Save.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.saveto_32x32;
             this.sb_Save.Location = new System.Drawing.Point(617, 328);
             this.sb_Save.Name = "sb_Save";
             this.sb_Save.Size = new System.Drawing.Size(75, 61);

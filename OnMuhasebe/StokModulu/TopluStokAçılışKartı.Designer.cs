@@ -29,17 +29,9 @@ namespace OnMuhasebe.StokModulu
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // TopluStokAçılışKartı
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 436);
-            this.Name = "TopluStokAçılışKartı";
             this.Text = "TopluStokAçılışKartı";
-            this.ResumeLayout(false);
-
         }
 
         #endregion
