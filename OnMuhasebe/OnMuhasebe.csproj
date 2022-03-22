@@ -41,6 +41,9 @@
     <Reference Include="DevExpress.XtraBars.v20.1" />
     <Reference Include="DevExpress.Sparkline.v20.1.Core" />
     <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,6 +65,18 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="CekSenetModulu\Class1.cs" />
+    <Compile Include="CekSenetModulu\formCekMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\formCekMusteri.Designer.cs">
+      <DependentUpon>formCekMusteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CekSenetModulu\formMusteriCekBodrosu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\formMusteriCekBodrosu.Designer.cs">
+      <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FaturaModulu\Class1.cs" />
     <Compile Include="frmAnaSayfa.cs">
       <SubType>Form</SubType>
@@ -74,6 +89,12 @@
     <Compile Include="StokModulu\Class1.cs" />
     <EmbeddedResource Include="CariModulu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\formCekMusteri.resx">
+      <DependentUpon>formCekMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\formMusteriCekBodrosu.resx">
+      <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAnaSayfa.resx">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
@@ -162,6 +183,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\breakingchange_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
