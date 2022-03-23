@@ -94,6 +94,12 @@
       <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
     </Compile>
     <Compile Include="StokModulu\test.cs" />
+    <Compile Include="StokModulu\TopluStokAcma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\TopluStokAcma.Designer.cs">
+      <DependentUpon>TopluStokAcma.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CariModulu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StokModulu\StokTanıtımKartı.resx">
       <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\TopluStokAcma.resx">
+      <DependentUpon>TopluStokAcma.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
