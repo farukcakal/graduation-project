@@ -255,6 +255,12 @@
   <ItemGroup>
     <None Include="Resources\lookup&amp;reference_16x16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KtunLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaliyeBakanlıkLogo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

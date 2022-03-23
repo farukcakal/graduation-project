@@ -253,9 +253,29 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap KtunLogo {
+            get {
+                object obj = ResourceManager.GetObject("KtunLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lookup_reference_16x16 {
             get {
                 object obj = ResourceManager.GetObject("lookup&reference_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MaliyeBakanlıkLogo {
+            get {
+                object obj = ResourceManager.GetObject("MaliyeBakanlıkLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
