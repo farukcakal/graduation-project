@@ -75,7 +75,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(26, 22);
+            this.labelControl1.Location = new System.Drawing.Point(12, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(50, 16);
             this.labelControl1.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(26, 53);
+            this.labelControl2.Location = new System.Drawing.Point(12, 43);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(40, 16);
             this.labelControl2.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(26, 84);
+            this.labelControl3.Location = new System.Drawing.Point(12, 74);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(55, 16);
             this.labelControl3.TabIndex = 2;
@@ -99,7 +99,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(26, 118);
+            this.labelControl4.Location = new System.Drawing.Point(12, 108);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(45, 16);
             this.labelControl4.TabIndex = 2;
@@ -108,7 +108,7 @@ namespace OnMuhasebe.CekSenetModulu
             // raAsil
             // 
             this.raAsil.AutoSize = true;
-            this.raAsil.Location = new System.Drawing.Point(98, 143);
+            this.raAsil.Location = new System.Drawing.Point(84, 133);
             this.raAsil.Name = "raAsil";
             this.raAsil.Size = new System.Drawing.Size(74, 21);
             this.raAsil.TabIndex = 4;
@@ -119,7 +119,7 @@ namespace OnMuhasebe.CekSenetModulu
             // raCiro
             // 
             this.raCiro.AutoSize = true;
-            this.raCiro.Location = new System.Drawing.Point(201, 143);
+            this.raCiro.Location = new System.Drawing.Point(187, 133);
             this.raCiro.Name = "raCiro";
             this.raCiro.Size = new System.Drawing.Size(80, 21);
             this.raCiro.TabIndex = 5;
@@ -129,7 +129,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(26, 173);
+            this.labelControl5.Location = new System.Drawing.Point(12, 163);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(59, 16);
             this.labelControl5.TabIndex = 2;
@@ -137,7 +137,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(26, 230);
+            this.labelControl6.Location = new System.Drawing.Point(12, 220);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(34, 16);
             this.labelControl6.TabIndex = 2;
@@ -145,7 +145,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(26, 258);
+            this.labelControl7.Location = new System.Drawing.Point(12, 248);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(29, 16);
             this.labelControl7.TabIndex = 2;
@@ -153,7 +153,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(26, 286);
+            this.labelControl8.Location = new System.Drawing.Point(12, 276);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(54, 16);
             this.labelControl8.TabIndex = 2;
@@ -161,7 +161,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(26, 314);
+            this.labelControl10.Location = new System.Drawing.Point(12, 304);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(31, 16);
             this.labelControl10.TabIndex = 2;
@@ -169,7 +169,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(26, 342);
+            this.labelControl11.Location = new System.Drawing.Point(12, 332);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(51, 16);
             this.labelControl11.TabIndex = 2;
@@ -181,9 +181,9 @@ namespace OnMuhasebe.CekSenetModulu
             this.panelControl1.Controls.Add(this.btnKaydet);
             this.panelControl1.Controls.Add(this.btnSil);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelControl1.Location = new System.Drawing.Point(0, 484);
+            this.panelControl1.Location = new System.Drawing.Point(0, 473);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(592, 40);
+            this.panelControl1.Size = new System.Drawing.Size(592, 39);
             this.panelControl1.TabIndex = 13;
             // 
             // btnYeni
@@ -223,7 +223,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // buttonEdit2
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(98, 81);
+            this.buttonEdit2.Location = new System.Drawing.Point(84, 71);
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -232,63 +232,63 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // txtCariAdi
             // 
-            this.txtCariAdi.Location = new System.Drawing.Point(98, 115);
+            this.txtCariAdi.Location = new System.Drawing.Point(84, 105);
             this.txtCariAdi.Name = "txtCariAdi";
             this.txtCariAdi.Size = new System.Drawing.Size(482, 22);
             this.txtCariAdi.TabIndex = 3;
             // 
             // txtAsilBorclu
             // 
-            this.txtAsilBorclu.Location = new System.Drawing.Point(98, 170);
+            this.txtAsilBorclu.Location = new System.Drawing.Point(84, 160);
             this.txtAsilBorclu.Name = "txtAsilBorclu";
             this.txtAsilBorclu.Size = new System.Drawing.Size(482, 22);
             this.txtAsilBorclu.TabIndex = 6;
             // 
             // txtTutar
             // 
-            this.txtTutar.Location = new System.Drawing.Point(98, 312);
+            this.txtTutar.Location = new System.Drawing.Point(84, 302);
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Size = new System.Drawing.Size(183, 22);
             this.txtTutar.TabIndex = 11;
             // 
             // txtHesapNo
             // 
-            this.txtHesapNo.Location = new System.Drawing.Point(98, 284);
+            this.txtHesapNo.Location = new System.Drawing.Point(84, 274);
             this.txtHesapNo.Name = "txtHesapNo";
             this.txtHesapNo.Size = new System.Drawing.Size(183, 22);
             this.txtHesapNo.TabIndex = 10;
             // 
             // txtSube
             // 
-            this.txtSube.Location = new System.Drawing.Point(98, 256);
+            this.txtSube.Location = new System.Drawing.Point(84, 246);
             this.txtSube.Name = "txtSube";
             this.txtSube.Size = new System.Drawing.Size(183, 22);
             this.txtSube.TabIndex = 9;
             // 
             // txtBanka
             // 
-            this.txtBanka.Location = new System.Drawing.Point(98, 228);
+            this.txtBanka.Location = new System.Drawing.Point(84, 218);
             this.txtBanka.Name = "txtBanka";
             this.txtBanka.Size = new System.Drawing.Size(183, 22);
             this.txtBanka.TabIndex = 8;
             // 
             // txtCekNo
             // 
-            this.txtCekNo.Location = new System.Drawing.Point(98, 51);
+            this.txtCekNo.Location = new System.Drawing.Point(84, 41);
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Size = new System.Drawing.Size(183, 22);
             this.txtCekNo.TabIndex = 1;
             // 
             // TxtAciklama
             // 
-            this.TxtAciklama.Location = new System.Drawing.Point(98, 340);
+            this.TxtAciklama.Location = new System.Drawing.Point(84, 330);
             this.TxtAciklama.Name = "TxtAciklama";
             this.TxtAciklama.Size = new System.Drawing.Size(482, 139);
             this.TxtAciklama.TabIndex = 12;
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(26, 202);
+            this.labelControl9.Location = new System.Drawing.Point(12, 192);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(66, 16);
             this.labelControl9.TabIndex = 2;
@@ -297,7 +297,7 @@ namespace OnMuhasebe.CekSenetModulu
             // txtVadeTarihi
             // 
             this.txtVadeTarihi.EditValue = null;
-            this.txtVadeTarihi.Location = new System.Drawing.Point(98, 200);
+            this.txtVadeTarihi.Location = new System.Drawing.Point(84, 190);
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -308,7 +308,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // buttonEdit1
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(98, 23);
+            this.buttonEdit1.Location = new System.Drawing.Point(84, 13);
             this.buttonEdit1.Name = "buttonEdit1";
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -319,7 +319,7 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 524);
+            this.ClientSize = new System.Drawing.Size(592, 512);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.txtVadeTarihi);
             this.Controls.Add(this.raCiro);

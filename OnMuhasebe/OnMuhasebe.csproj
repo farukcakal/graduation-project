@@ -88,6 +88,18 @@
     <Compile Include="CekSenetModulu\Cek\formMusteriCekBodrosu.Designer.cs">
       <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
     </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.Designer.cs">
+      <DependentUpon>frmMusteriSenetBodrosu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmSenetMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmSenetMusteri.Designer.cs">
+      <DependentUpon>frmSenetMusteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FaturaModulu\Class1.cs" />
     <Compile Include="FaturaModulu\FaturaCıktısı\rapSatisFaturası.cs">
       <SubType>Component</SubType>
@@ -130,6 +142,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CekSenetModulu\Cek\formMusteriCekBodrosu.resx">
       <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.resx">
+      <DependentUpon>frmMusteriSenetBodrosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Senet\frmSenetMusteri.resx">
+      <DependentUpon>frmSenetMusteri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FaturaModulu\FaturaCıktısı\rapSatisFaturası.resx">
       <DependentUpon>rapSatisFaturası.cs</DependentUpon>
@@ -255,9 +273,7 @@
   <ItemGroup>
     <None Include="Resources\trash_16x16.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CekSenetModulu\Senet\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\clearall_16x16.png" />
   </ItemGroup>
