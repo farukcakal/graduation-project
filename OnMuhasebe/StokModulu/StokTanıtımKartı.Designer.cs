@@ -65,8 +65,8 @@ namespace OnMuhasebe.StokModulu
             this.lbl_Satis_fiyati = new System.Windows.Forms.Label();
             this.txt_Satis_Fiyat2 = new System.Windows.Forms.TextBox();
             this.txt_Satis_Fiyat1 = new System.Windows.Forms.TextBox();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Güncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Delete = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Save = new DevExpress.XtraEditors.SimpleButton();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
@@ -392,6 +392,15 @@ namespace OnMuhasebe.StokModulu
             this.txt_Satis_Fiyat1.Size = new System.Drawing.Size(175, 25);
             this.txt_Satis_Fiyat1.TabIndex = 4;
             // 
+            // sb_Güncelle
+            // 
+            this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
+            this.sb_Güncelle.Location = new System.Drawing.Point(617, 405);
+            this.sb_Güncelle.Name = "sb_Güncelle";
+            this.sb_Güncelle.Size = new System.Drawing.Size(187, 62);
+            this.sb_Güncelle.TabIndex = 26;
+            this.sb_Güncelle.Text = "Güncelle";
+            // 
             // simpleButton1
             // 
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -404,21 +413,12 @@ namespace OnMuhasebe.StokModulu
             this.simpleButton1.TabIndex = 27;
             this.simpleButton1.Text = "Stok Tanıtım Kartı";
             // 
-            // sb_Güncelle
-            // 
-            this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
-            this.sb_Güncelle.Location = new System.Drawing.Point(617, 405);
-            this.sb_Güncelle.Name = "sb_Güncelle";
-            this.sb_Güncelle.Size = new System.Drawing.Size(187, 62);
-            this.sb_Güncelle.TabIndex = 26;
-            this.sb_Güncelle.Text = "Güncelle";
-            // 
             // sb_Delete
             // 
             this.sb_Delete.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.removepivotfield_32x32;
-            this.sb_Delete.Location = new System.Drawing.Point(729, 328);
+            this.sb_Delete.Location = new System.Drawing.Point(710, 328);
             this.sb_Delete.Name = "sb_Delete";
-            this.sb_Delete.Size = new System.Drawing.Size(75, 61);
+            this.sb_Delete.Size = new System.Drawing.Size(94, 61);
             this.sb_Delete.TabIndex = 25;
             this.sb_Delete.Text = "Sil";
             // 
@@ -427,7 +427,7 @@ namespace OnMuhasebe.StokModulu
             this.sb_Save.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.saveto_32x32;
             this.sb_Save.Location = new System.Drawing.Point(617, 328);
             this.sb_Save.Name = "sb_Save";
-            this.sb_Save.Size = new System.Drawing.Size(75, 61);
+            this.sb_Save.Size = new System.Drawing.Size(87, 61);
             this.sb_Save.TabIndex = 8;
             this.sb_Save.Text = "Kaydet";
             // 
