@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace OnMuhasebe.FaturaModulu
 {
-    public partial class frmSatısFaturası : DevExpress.XtraEditors.XtraForm
+    public partial class frmSatisIadeFaturasi : DevExpress.XtraEditors.XtraForm
     {
-        public frmSatısFaturası()
+        public frmSatisIadeFaturasi()
         {
             InitializeComponent();
         }

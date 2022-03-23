@@ -1,7 +1,7 @@
 ﻿
 namespace OnMuhasebe.FaturaModulu
 {
-    partial class frmSatısFaturası
+    partial class frmSatisFaturasi
     {
         /// <summary>
         /// Required designer variable.
@@ -45,9 +45,15 @@ namespace OnMuhasebe.FaturaModulu
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.txtAciklama = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.txtNetFiyat = new DevExpress.XtraEditors.TextEdit();
             this.txtGenelToplam = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.txtAraToplam = new DevExpress.XtraEditors.TextEdit();
+            this.txtIskonto = new DevExpress.XtraEditors.TextEdit();
             this.txtKdv = new DevExpress.XtraEditors.TextEdit();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.btnYeni = new DevExpress.XtraEditors.SimpleButton();
@@ -65,12 +71,6 @@ namespace OnMuhasebe.FaturaModulu
             this.ISK2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.KDV = new DevExpress.XtraGrid.Columns.GridColumn();
             this.TOPLAM = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.txtIskonto = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.txtNetFiyat = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
-            this.txtAraToplam = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtTuru.Properties)).BeginInit();
@@ -84,15 +84,15 @@ namespace OnMuhasebe.FaturaModulu
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtAciklama.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNetFiyat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGenelToplam.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAraToplam.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIskonto.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKdv.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grcoCekBodroGiris)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIskonto.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtNetFiyat.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtAraToplam.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -257,6 +257,15 @@ namespace OnMuhasebe.FaturaModulu
             this.txtAciklama.Size = new System.Drawing.Size(345, 131);
             this.txtAciklama.TabIndex = 12;
             // 
+            // labelControl10
+            // 
+            this.labelControl10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl10.Location = new System.Drawing.Point(626, 73);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(50, 16);
+            this.labelControl10.TabIndex = 0;
+            this.labelControl10.Text = "Net Fiyat";
+            // 
             // labelControl4
             // 
             this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -266,6 +275,14 @@ namespace OnMuhasebe.FaturaModulu
             this.labelControl4.TabIndex = 0;
             this.labelControl4.Text = "Genel Toplam";
             // 
+            // txtNetFiyat
+            // 
+            this.txtNetFiyat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNetFiyat.Location = new System.Drawing.Point(723, 70);
+            this.txtNetFiyat.Name = "txtNetFiyat";
+            this.txtNetFiyat.Size = new System.Drawing.Size(152, 22);
+            this.txtNetFiyat.TabIndex = 1;
+            // 
             // txtGenelToplam
             // 
             this.txtGenelToplam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -273,6 +290,24 @@ namespace OnMuhasebe.FaturaModulu
             this.txtGenelToplam.Name = "txtGenelToplam";
             this.txtGenelToplam.Size = new System.Drawing.Size(152, 22);
             this.txtGenelToplam.TabIndex = 1;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl12.Location = new System.Drawing.Point(626, 17);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(67, 16);
+            this.labelControl12.TabIndex = 0;
+            this.labelControl12.Text = "Ara Toplam";
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl9.Location = new System.Drawing.Point(626, 45);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(41, 16);
+            this.labelControl9.TabIndex = 0;
+            this.labelControl9.Text = "İskonto";
             // 
             // labelControl2
             // 
@@ -282,6 +317,22 @@ namespace OnMuhasebe.FaturaModulu
             this.labelControl2.Size = new System.Drawing.Size(21, 16);
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "Kdv";
+            // 
+            // txtAraToplam
+            // 
+            this.txtAraToplam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtAraToplam.Location = new System.Drawing.Point(723, 14);
+            this.txtAraToplam.Name = "txtAraToplam";
+            this.txtAraToplam.Size = new System.Drawing.Size(152, 22);
+            this.txtAraToplam.TabIndex = 1;
+            // 
+            // txtIskonto
+            // 
+            this.txtIskonto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtIskonto.Location = new System.Drawing.Point(723, 42);
+            this.txtIskonto.Name = "txtIskonto";
+            this.txtIskonto.Size = new System.Drawing.Size(152, 22);
+            this.txtIskonto.TabIndex = 1;
             // 
             // txtKdv
             // 
@@ -478,57 +529,6 @@ namespace OnMuhasebe.FaturaModulu
             this.TOPLAM.VisibleIndex = 9;
             this.TOPLAM.Width = 94;
             // 
-            // txtIskonto
-            // 
-            this.txtIskonto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIskonto.Location = new System.Drawing.Point(723, 42);
-            this.txtIskonto.Name = "txtIskonto";
-            this.txtIskonto.Size = new System.Drawing.Size(152, 22);
-            this.txtIskonto.TabIndex = 1;
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl9.Location = new System.Drawing.Point(626, 45);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(41, 16);
-            this.labelControl9.TabIndex = 0;
-            this.labelControl9.Text = "İskonto";
-            // 
-            // txtNetFiyat
-            // 
-            this.txtNetFiyat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNetFiyat.Location = new System.Drawing.Point(723, 70);
-            this.txtNetFiyat.Name = "txtNetFiyat";
-            this.txtNetFiyat.Size = new System.Drawing.Size(152, 22);
-            this.txtNetFiyat.TabIndex = 1;
-            // 
-            // labelControl10
-            // 
-            this.labelControl10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl10.Location = new System.Drawing.Point(626, 73);
-            this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(50, 16);
-            this.labelControl10.TabIndex = 0;
-            this.labelControl10.Text = "Net Fiyat";
-            // 
-            // txtAraToplam
-            // 
-            this.txtAraToplam.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAraToplam.Location = new System.Drawing.Point(723, 14);
-            this.txtAraToplam.Name = "txtAraToplam";
-            this.txtAraToplam.Size = new System.Drawing.Size(152, 22);
-            this.txtAraToplam.TabIndex = 1;
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl12.Location = new System.Drawing.Point(626, 17);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(67, 16);
-            this.labelControl12.TabIndex = 0;
-            this.labelControl12.Text = "Ara Toplam";
-            // 
             // frmSatısFaturası
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -538,7 +538,10 @@ namespace OnMuhasebe.FaturaModulu
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.panelControl2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmSatısFaturası";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Satış Faturası";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
@@ -555,15 +558,15 @@ namespace OnMuhasebe.FaturaModulu
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtAciklama.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNetFiyat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGenelToplam.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAraToplam.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIskonto.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKdv.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grcoCekBodroGiris)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIskonto.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtNetFiyat.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtAraToplam.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace OnMuhasebe.FaturaModulu.FaturaCıktısı
 {
-    partial class rapSatisFaturası
+    partial class rapSatisFaturasi
     {
         /// <summary>
         /// Required designer variable.
