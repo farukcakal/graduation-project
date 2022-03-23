@@ -186,7 +186,7 @@ namespace OnMuhasebe
             // 
             // barButtonItem9
             // 
-            this.barButtonItem9.Caption = "Toplu Fiyat Güncelleme";
+            this.barButtonItem9.Caption = "Toplu Stok Güncelleme";
             this.barButtonItem9.Id = 10;
             this.barButtonItem9.Name = "barButtonItem9";
             // 

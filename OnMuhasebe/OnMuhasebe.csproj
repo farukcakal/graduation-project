@@ -94,6 +94,12 @@
       <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
     </Compile>
     <Compile Include="StokModulu\test.cs" />
+    <Compile Include="StokModulu\TopluStokGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\TopluStokGuncelleme.Designer.cs">
+      <DependentUpon>TopluStokGuncelleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="StokModulu\TopluStokAcma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StokModulu\StokTanıtımKartı.resx">
       <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\TopluStokGuncelleme.resx">
+      <DependentUpon>TopluStokGuncelleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StokModulu\TopluStokAcma.resx">
       <DependentUpon>TopluStokAcma.cs</DependentUpon>
