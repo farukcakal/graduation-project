@@ -57,12 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankaModulu\Class1.cs" />
+    <Compile Include="CariModulu\CariHareketKayıtları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\CariHareketKayıtları.Designer.cs">
+      <DependentUpon>CariHareketKayıtları.cs</DependentUpon>
+    </Compile>
     <Compile Include="CariModulu\Class1.cs" />
     <Compile Include="CariModulu\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CariModulu\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\TopluCariAcma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\TopluCariAcma.Designer.cs">
+      <DependentUpon>TopluCariAcma.cs</DependentUpon>
     </Compile>
     <Compile Include="CekSenetModulu\Class1.cs" />
     <Compile Include="FaturaModulu\Class1.cs" />
@@ -136,8 +148,14 @@
     <Compile Include="StokModulu\TopluStokAcma.Designer.cs">
       <DependentUpon>TopluStokAcma.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CariModulu\CariHareketKayıtları.resx">
+      <DependentUpon>CariHareketKayıtları.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CariModulu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\TopluCariAcma.resx">
+      <DependentUpon>TopluCariAcma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAnaSayfa.resx">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
