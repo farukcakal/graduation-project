@@ -32,11 +32,13 @@ namespace OnMuhasebe.CekSenetModulu
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.txtTarih = new DevExpress.XtraEditors.DateEdit();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.txtCariIsim = new DevExpress.XtraEditors.TextEdit();
             this.txtBordroNo = new DevExpress.XtraEditors.ButtonEdit();
             this.txtCariKod = new DevExpress.XtraEditors.ButtonEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txtToplamTutar = new DevExpress.XtraEditors.TextEdit();
             this.grcoCekBodroGiris = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -49,18 +51,17 @@ namespace OnMuhasebe.CekSenetModulu
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.TxtBordroAciklamasi = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.txtOrtVad = new DevExpress.XtraEditors.TextEdit();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.btnYeni = new DevExpress.XtraEditors.SimpleButton();
             this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
-            this.txtOrtVad = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.txtCariIsim = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtTarih.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTarih.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBordroNo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCariKod.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtToplamTutar.Properties)).BeginInit();
@@ -69,10 +70,9 @@ namespace OnMuhasebe.CekSenetModulu
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TxtBordroAciklamasi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtOrtVad.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtOrtVad.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -112,15 +112,6 @@ namespace OnMuhasebe.CekSenetModulu
             this.txtTarih.Size = new System.Drawing.Size(167, 22);
             this.txtTarih.TabIndex = 7;
             // 
-            // labelControl2
-            // 
-            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl2.Location = new System.Drawing.Point(671, 18);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(78, 16);
-            this.labelControl2.TabIndex = 0;
-            this.labelControl2.Text = "Toplam Tutar";
-            // 
             // labelControl1
             // 
             this.labelControl1.Location = new System.Drawing.Point(12, 41);
@@ -136,6 +127,23 @@ namespace OnMuhasebe.CekSenetModulu
             this.labelControl9.Size = new System.Drawing.Size(30, 16);
             this.labelControl9.TabIndex = 2;
             this.labelControl9.Text = "Tarih";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl5.Location = new System.Drawing.Point(374, 66);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(51, 16);
+            this.labelControl5.TabIndex = 0;
+            this.labelControl5.Text = "Cari İsim";
+            // 
+            // txtCariIsim
+            // 
+            this.txtCariIsim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCariIsim.Location = new System.Drawing.Point(435, 63);
+            this.txtCariIsim.Name = "txtCariIsim";
+            this.txtCariIsim.Size = new System.Drawing.Size(403, 22);
+            this.txtCariIsim.TabIndex = 1;
             // 
             // txtBordroNo
             // 
@@ -154,6 +162,15 @@ namespace OnMuhasebe.CekSenetModulu
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtCariKod.Size = new System.Drawing.Size(403, 22);
             this.txtCariKod.TabIndex = 2;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl2.Location = new System.Drawing.Point(671, 18);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(78, 16);
+            this.labelControl2.TabIndex = 0;
+            this.labelControl2.Text = "Toplam Tutar";
             // 
             // txtToplamTutar
             // 
@@ -282,6 +299,23 @@ namespace OnMuhasebe.CekSenetModulu
             this.TxtBordroAciklamasi.Size = new System.Drawing.Size(347, 63);
             this.TxtBordroAciklamasi.TabIndex = 12;
             // 
+            // labelControl4
+            // 
+            this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl4.Location = new System.Drawing.Point(671, 46);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(86, 16);
+            this.labelControl4.TabIndex = 0;
+            this.labelControl4.Text = "Ortalama Vade";
+            // 
+            // txtOrtVad
+            // 
+            this.txtOrtVad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtOrtVad.Location = new System.Drawing.Point(766, 43);
+            this.txtOrtVad.Name = "txtOrtVad";
+            this.txtOrtVad.Size = new System.Drawing.Size(152, 22);
+            this.txtOrtVad.TabIndex = 1;
+            // 
             // panelControl2
             // 
             this.panelControl2.Controls.Add(this.btnYeni);
@@ -331,40 +365,6 @@ namespace OnMuhasebe.CekSenetModulu
             this.btnSil.TabIndex = 2;
             this.btnSil.Text = "Sil";
             // 
-            // txtOrtVad
-            // 
-            this.txtOrtVad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOrtVad.Location = new System.Drawing.Point(766, 43);
-            this.txtOrtVad.Name = "txtOrtVad";
-            this.txtOrtVad.Size = new System.Drawing.Size(152, 22);
-            this.txtOrtVad.TabIndex = 1;
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl4.Location = new System.Drawing.Point(671, 46);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(86, 16);
-            this.labelControl4.TabIndex = 0;
-            this.labelControl4.Text = "Ortalama Vade";
-            // 
-            // txtCariIsim
-            // 
-            this.txtCariIsim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCariIsim.Location = new System.Drawing.Point(435, 63);
-            this.txtCariIsim.Name = "txtCariIsim";
-            this.txtCariIsim.Size = new System.Drawing.Size(403, 22);
-            this.txtCariIsim.TabIndex = 1;
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl5.Location = new System.Drawing.Point(374, 66);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(51, 16);
-            this.labelControl5.TabIndex = 0;
-            this.labelControl5.Text = "Cari İsim";
-            // 
             // formMusteriCekBodrosu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -375,12 +375,13 @@ namespace OnMuhasebe.CekSenetModulu
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.panelControl2);
             this.Name = "formMusteriCekBodrosu";
-            this.Text = "Çek Bordro Girişi";
+            this.Text = "ıs";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtTarih.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTarih.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBordroNo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCariKod.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtToplamTutar.Properties)).EndInit();
@@ -390,10 +391,9 @@ namespace OnMuhasebe.CekSenetModulu
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TxtBordroAciklamasi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtOrtVad.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.txtOrtVad.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtCariIsim.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

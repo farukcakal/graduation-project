@@ -34,17 +34,19 @@ namespace OnMuhasebe.RaporModulu
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.btnTemizle = new DevExpress.XtraEditors.SimpleButton();
             this.btnArama = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKod5 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKod4 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKod1 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKod3 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokAdi = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKod2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.txtRapStokKodu = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -54,8 +56,6 @@ namespace OnMuhasebe.RaporModulu
             this.GIRIS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.CIKIS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.BAKIYE = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -63,15 +63,15 @@ namespace OnMuhasebe.RaporModulu
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokAdi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKodu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -106,19 +106,19 @@ namespace OnMuhasebe.RaporModulu
             // 
             this.xtraTabPage1.Controls.Add(this.btnTemizle);
             this.xtraTabPage1.Controls.Add(this.btnArama);
-            this.xtraTabPage1.Controls.Add(this.textEdit7);
-            this.xtraTabPage1.Controls.Add(this.textEdit6);
-            this.xtraTabPage1.Controls.Add(this.textEdit3);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKod5);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKod4);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKod1);
             this.xtraTabPage1.Controls.Add(this.labelControl7);
             this.xtraTabPage1.Controls.Add(this.labelControl6);
             this.xtraTabPage1.Controls.Add(this.labelControl3);
-            this.xtraTabPage1.Controls.Add(this.textEdit5);
-            this.xtraTabPage1.Controls.Add(this.textEdit2);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKod3);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokAdi);
             this.xtraTabPage1.Controls.Add(this.labelControl5);
             this.xtraTabPage1.Controls.Add(this.labelControl2);
-            this.xtraTabPage1.Controls.Add(this.textEdit4);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKod2);
             this.xtraTabPage1.Controls.Add(this.labelControl4);
-            this.xtraTabPage1.Controls.Add(this.textEdit1);
+            this.xtraTabPage1.Controls.Add(this.txtRapStokKodu);
             this.xtraTabPage1.Controls.Add(this.labelControl1);
             this.xtraTabPage1.Name = "xtraTabPage1";
             this.xtraTabPage1.Size = new System.Drawing.Size(198, 504);
@@ -142,57 +142,72 @@ namespace OnMuhasebe.RaporModulu
             this.btnArama.TabIndex = 2;
             this.btnArama.Text = "Arama";
             // 
-            // textEdit6
+            // txtRapStokKod5
             // 
-            this.textEdit6.Location = new System.Drawing.Point(3, 291);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(179, 22);
-            this.textEdit6.TabIndex = 1;
+            this.txtRapStokKod5.Location = new System.Drawing.Point(3, 341);
+            this.txtRapStokKod5.Name = "txtRapStokKod5";
+            this.txtRapStokKod5.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKod5.TabIndex = 1;
             // 
-            // textEdit3
+            // txtRapStokKod4
             // 
-            this.textEdit3.Location = new System.Drawing.Point(3, 139);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(179, 22);
-            this.textEdit3.TabIndex = 1;
+            this.txtRapStokKod4.Location = new System.Drawing.Point(3, 291);
+            this.txtRapStokKod4.Name = "txtRapStokKod4";
+            this.txtRapStokKod4.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKod4.TabIndex = 1;
+            // 
+            // txtRapStokKod1
+            // 
+            this.txtRapStokKod1.Location = new System.Drawing.Point(3, 139);
+            this.txtRapStokKod1.Name = "txtRapStokKod1";
+            this.txtRapStokKod1.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKod1.TabIndex = 1;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(3, 319);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(28, 16);
+            this.labelControl7.TabIndex = 0;
+            this.labelControl7.Text = "Kod5";
             // 
             // labelControl6
             // 
             this.labelControl6.Location = new System.Drawing.Point(3, 269);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(75, 16);
+            this.labelControl6.Size = new System.Drawing.Size(28, 16);
             this.labelControl6.TabIndex = 0;
-            this.labelControl6.Text = "labelControl1";
+            this.labelControl6.Text = "Kod4";
             // 
             // labelControl3
             // 
             this.labelControl3.Location = new System.Drawing.Point(3, 117);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(75, 16);
+            this.labelControl3.Size = new System.Drawing.Size(28, 16);
             this.labelControl3.TabIndex = 0;
-            this.labelControl3.Text = "labelControl1";
+            this.labelControl3.Text = "Kod1";
             // 
-            // textEdit5
+            // txtRapStokKod3
             // 
-            this.textEdit5.Location = new System.Drawing.Point(3, 241);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(179, 22);
-            this.textEdit5.TabIndex = 1;
+            this.txtRapStokKod3.Location = new System.Drawing.Point(3, 241);
+            this.txtRapStokKod3.Name = "txtRapStokKod3";
+            this.txtRapStokKod3.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKod3.TabIndex = 1;
             // 
-            // textEdit2
+            // txtRapStokAdi
             // 
-            this.textEdit2.Location = new System.Drawing.Point(3, 89);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(179, 22);
-            this.textEdit2.TabIndex = 1;
+            this.txtRapStokAdi.Location = new System.Drawing.Point(3, 89);
+            this.txtRapStokAdi.Name = "txtRapStokAdi";
+            this.txtRapStokAdi.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokAdi.TabIndex = 1;
             // 
             // labelControl5
             // 
             this.labelControl5.Location = new System.Drawing.Point(3, 219);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(75, 16);
+            this.labelControl5.Size = new System.Drawing.Size(28, 16);
             this.labelControl5.TabIndex = 0;
-            this.labelControl5.Text = "labelControl1";
+            this.labelControl5.Text = "Kod3";
             // 
             // labelControl2
             // 
@@ -202,27 +217,27 @@ namespace OnMuhasebe.RaporModulu
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "Stok Adı";
             // 
-            // textEdit4
+            // txtRapStokKod2
             // 
-            this.textEdit4.Location = new System.Drawing.Point(3, 191);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(179, 22);
-            this.textEdit4.TabIndex = 1;
+            this.txtRapStokKod2.Location = new System.Drawing.Point(3, 191);
+            this.txtRapStokKod2.Name = "txtRapStokKod2";
+            this.txtRapStokKod2.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKod2.TabIndex = 1;
             // 
             // labelControl4
             // 
             this.labelControl4.Location = new System.Drawing.Point(3, 169);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(75, 16);
+            this.labelControl4.Size = new System.Drawing.Size(28, 16);
             this.labelControl4.TabIndex = 0;
-            this.labelControl4.Text = "labelControl1";
+            this.labelControl4.Text = "Kod2";
             // 
-            // textEdit1
+            // txtRapStokKodu
             // 
-            this.textEdit1.Location = new System.Drawing.Point(3, 39);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(179, 22);
-            this.textEdit1.TabIndex = 1;
+            this.txtRapStokKodu.Location = new System.Drawing.Point(3, 39);
+            this.txtRapStokKodu.Name = "txtRapStokKodu";
+            this.txtRapStokKodu.Size = new System.Drawing.Size(179, 22);
+            this.txtRapStokKodu.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -316,21 +331,6 @@ namespace OnMuhasebe.RaporModulu
             this.BAKIYE.VisibleIndex = 5;
             this.BAKIYE.Width = 94;
             // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(3, 319);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(75, 16);
-            this.labelControl7.TabIndex = 0;
-            this.labelControl7.Text = "labelControl1";
-            // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(3, 341);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(179, 22);
-            this.textEdit7.TabIndex = 1;
-            // 
             // frmRapStokHareket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -347,15 +347,15 @@ namespace OnMuhasebe.RaporModulu
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);
             this.xtraTabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokAdi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKod2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRapStokKodu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -372,22 +372,22 @@ namespace OnMuhasebe.RaporModulu
         private DevExpress.XtraGrid.Columns.GridColumn STOKADI;
         private DevExpress.XtraEditors.SimpleButton btnTemizle;
         private DevExpress.XtraEditors.SimpleButton btnArama;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKod4;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKod1;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKod3;
+        private DevExpress.XtraEditors.TextEdit txtRapStokAdi;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKod2;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKodu;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraGrid.Columns.GridColumn GIRIS;
         private DevExpress.XtraGrid.Columns.GridColumn CIKIS;
         private DevExpress.XtraGrid.Columns.GridColumn BAKIYE;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
+        private DevExpress.XtraEditors.TextEdit txtRapStokKod5;
         private DevExpress.XtraEditors.LabelControl labelControl7;
     }
 }
