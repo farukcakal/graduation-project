@@ -375,7 +375,7 @@ namespace OnMuhasebe.CekSenetModulu
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.panelControl2);
             this.Name = "formMusteriCekBodrosu";
-            this.Text = "ıs";
+            this.Text = "Müşteri Cek Bodrosu";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
