@@ -81,6 +81,12 @@
     <Compile Include="StokModulu\StokHareketKayıtları.Designer.cs">
       <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
     </Compile>
+    <Compile Include="StokModulu\StokKoduAcma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKoduAcma.Designer.cs">
+      <DependentUpon>StokKoduAcma.cs</DependentUpon>
+    </Compile>
     <Compile Include="StokModulu\StokListeleme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="StokModulu\StokHareketKayıtları.resx">
       <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKoduAcma.resx">
+      <DependentUpon>StokKoduAcma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StokModulu\StokListeleme.resx">
       <DependentUpon>StokListeleme.cs</DependentUpon>
@@ -226,6 +235,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lookup&amp;reference_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveto_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removepivotfield_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removepivotfield_32x322.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
