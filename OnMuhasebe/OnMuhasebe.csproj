@@ -41,6 +41,9 @@
     <Reference Include="DevExpress.XtraBars.v20.1" />
     <Reference Include="DevExpress.Sparkline.v20.1.Core" />
     <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,12 +57,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankaModulu\Class1.cs" />
-    <Compile Include="CariModulu\Class1.cs" />
-    <Compile Include="CariModulu\Form1.cs">
+    <Compile Include="CariModulu\CariHareket\frmCariAcilisKarti.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CariModulu\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CariModulu\CariHareket\frmCariAcilisKarti.Designer.cs">
+      <DependentUpon>frmCariAcilisKarti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\CariHareket\frmCariHareketler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\CariHareket\frmCariHareketler.Designer.cs">
+      <DependentUpon>frmCariHareketler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\Class1.cs" />
+    <Compile Include="CariModulu\CariTanitim\frmCariTanitimKarti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\CariTanitim\frmCariTanitimKarti.Designer.cs">
+      <DependentUpon>frmCariTanitimKarti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\ornek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\ornek.Designer.cs">
+      <DependentUpon>ornek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\CariTanitim\frmCariListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\CariTanitim\frmCariListesi.Designer.cs">
+      <DependentUpon>frmCariListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariModulu\ornek1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\ornek1.Designer.cs">
+      <DependentUpon>ornek1.cs</DependentUpon>
     </Compile>
     <Compile Include="CekSenetModulu\Class1.cs" />
     <Compile Include="FaturaModulu\Class1.cs" />
@@ -69,14 +102,83 @@
     <Compile Include="frmAnaSayfa.Designer.cs">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="KasaModulu\frmKasaAcilisKarti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaAcilisKarti.Designer.cs">
+      <DependentUpon>frmKasaAcilisKarti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaHareketKayitlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaHareketKayitlari.Designer.cs">
+      <DependentUpon>frmKasaHareketKayitlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaListesi.Designer.cs">
+      <DependentUpon>frmKasaListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaOdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaOdeme.Designer.cs">
+      <DependentUpon>frmKasaOdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaTahsilat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaTahsilat.Designer.cs">
+      <DependentUpon>frmKasaTahsilat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaTanitimFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasaModulu\frmKasaTanitimFormu.Designer.cs">
+      <DependentUpon>frmKasaTanitimFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StokModulu\Class1.cs" />
-    <EmbeddedResource Include="CariModulu\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CariModulu\CariHareket\frmCariAcilisKarti.resx">
+      <DependentUpon>frmCariAcilisKarti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\CariHareket\frmCariHareketler.resx">
+      <DependentUpon>frmCariHareketler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\CariTanitim\frmCariListesi.resx">
+      <DependentUpon>frmCariListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\CariTanitim\frmCariTanitimKarti.resx">
+      <DependentUpon>frmCariTanitimKarti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\ornek.resx">
+      <DependentUpon>ornek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariModulu\ornek1.resx">
+      <DependentUpon>ornek1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAnaSayfa.resx">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaAcilisKarti.resx">
+      <DependentUpon>frmKasaAcilisKarti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaHareketKayitlari.resx">
+      <DependentUpon>frmKasaHareketKayitlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaListesi.resx">
+      <DependentUpon>frmKasaListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaOdeme.resx">
+      <DependentUpon>frmKasaOdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaTahsilat.resx">
+      <DependentUpon>frmKasaTahsilat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasaModulu\frmKasaTanitimFormu.resx">
+      <DependentUpon>frmKasaTanitimFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -103,7 +205,9 @@
   <ItemGroup>
     <None Include="Resources\416374_envelope_file_folder_mail_office_icon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CariModulu\Classlar\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
