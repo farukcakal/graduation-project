@@ -1,7 +1,7 @@
 ﻿
 namespace OnMuhasebe.StokModulu
 {
-    partial class StokKoduAcma
+    partial class StokKodu1
     {
         /// <summary>
         /// Required designer variable.

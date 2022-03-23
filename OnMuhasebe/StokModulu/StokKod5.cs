@@ -11,16 +11,11 @@ using System.Windows.Forms;
 
 namespace OnMuhasebe.StokModulu
 {
-    public partial class StokKoduAcma : DevExpress.XtraEditors.XtraForm
+    public partial class StokKod5 : DevExpress.XtraEditors.XtraForm
     {
-        public StokKoduAcma()
+        public StokKod5()
         {
             InitializeComponent();
-        }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

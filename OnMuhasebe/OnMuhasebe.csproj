@@ -81,11 +81,35 @@
     <Compile Include="StokModulu\StokHareketKayıtları.Designer.cs">
       <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
     </Compile>
-    <Compile Include="StokModulu\StokKoduAcma.cs">
+    <Compile Include="StokModulu\StokKod2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StokModulu\StokKoduAcma.Designer.cs">
-      <DependentUpon>StokKoduAcma.cs</DependentUpon>
+    <Compile Include="StokModulu\StokKod2.Designer.cs">
+      <DependentUpon>StokKod2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKod4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKod4.Designer.cs">
+      <DependentUpon>StokKod4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKod5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKod5.Designer.cs">
+      <DependentUpon>StokKod5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu3.Designer.cs">
+      <DependentUpon>StokKodu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu1.Designer.cs">
+      <DependentUpon>StokKodu1.cs</DependentUpon>
     </Compile>
     <Compile Include="StokModulu\StokListeleme.cs">
       <SubType>Form</SubType>
@@ -132,8 +156,20 @@
     <EmbeddedResource Include="StokModulu\StokHareketKayıtları.resx">
       <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StokModulu\StokKoduAcma.resx">
-      <DependentUpon>StokKoduAcma.cs</DependentUpon>
+    <EmbeddedResource Include="StokModulu\StokKod2.resx">
+      <DependentUpon>StokKod2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKod4.resx">
+      <DependentUpon>StokKod4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKod5.resx">
+      <DependentUpon>StokKod5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKodu3.resx">
+      <DependentUpon>StokKodu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKodu1.resx">
+      <DependentUpon>StokKodu1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StokModulu\StokListeleme.resx">
       <DependentUpon>StokListeleme.cs</DependentUpon>
