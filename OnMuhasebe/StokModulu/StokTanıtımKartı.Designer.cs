@@ -477,7 +477,7 @@ namespace OnMuhasebe.StokModulu
             this.Controls.Add(this.txt_Stok_Kodu);
             this.Controls.Add(this.lbl_StokKodu);
             this.Name = "StokTanıtımKartı";
-            this.Text = "o z";
+            this.Text = "Stok Tanıtım Kartı";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
