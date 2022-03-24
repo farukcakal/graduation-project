@@ -65,8 +65,8 @@ namespace OnMuhasebe.StokModulu
             this.lbl_Satis_fiyati = new System.Windows.Forms.Label();
             this.txt_Satis_Fiyat2 = new System.Windows.Forms.TextBox();
             this.txt_Satis_Fiyat1 = new System.Windows.Forms.TextBox();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Güncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Delete = new DevExpress.XtraEditors.SimpleButton();
             this.sb_Save = new DevExpress.XtraEditors.SimpleButton();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
@@ -145,7 +145,7 @@ namespace OnMuhasebe.StokModulu
             // lbl_Satis_kdv
             // 
             this.lbl_Satis_kdv.AutoSize = true;
-            this.lbl_Satis_kdv.Location = new System.Drawing.Point(18, 76);
+            this.lbl_Satis_kdv.Location = new System.Drawing.Point(8, 72);
             this.lbl_Satis_kdv.Name = "lbl_Satis_kdv";
             this.lbl_Satis_kdv.Size = new System.Drawing.Size(73, 17);
             this.lbl_Satis_kdv.TabIndex = 3;
@@ -154,7 +154,7 @@ namespace OnMuhasebe.StokModulu
             // lbl_Alıs_kdv
             // 
             this.lbl_Alıs_kdv.AutoSize = true;
-            this.lbl_Alıs_kdv.Location = new System.Drawing.Point(18, 29);
+            this.lbl_Alıs_kdv.Location = new System.Drawing.Point(8, 25);
             this.lbl_Alıs_kdv.Name = "lbl_Alıs_kdv";
             this.lbl_Alıs_kdv.Size = new System.Drawing.Size(68, 17);
             this.lbl_Alıs_kdv.TabIndex = 2;
@@ -162,14 +162,14 @@ namespace OnMuhasebe.StokModulu
             // 
             // txt_Satıs_Kdv
             // 
-            this.txt_Satıs_Kdv.Location = new System.Drawing.Point(101, 73);
+            this.txt_Satıs_Kdv.Location = new System.Drawing.Point(91, 69);
             this.txt_Satıs_Kdv.Name = "txt_Satıs_Kdv";
             this.txt_Satıs_Kdv.Size = new System.Drawing.Size(143, 25);
             this.txt_Satıs_Kdv.TabIndex = 1;
             // 
             // txt_Alis_Kdv
             // 
-            this.txt_Alis_Kdv.Location = new System.Drawing.Point(101, 21);
+            this.txt_Alis_Kdv.Location = new System.Drawing.Point(91, 17);
             this.txt_Alis_Kdv.Name = "txt_Alis_Kdv";
             this.txt_Alis_Kdv.Size = new System.Drawing.Size(143, 25);
             this.txt_Alis_Kdv.TabIndex = 0;
@@ -181,9 +181,9 @@ namespace OnMuhasebe.StokModulu
             this.groupBox2.Controls.Add(this.txt_Alis_Fiyat2);
             this.groupBox2.Controls.Add(this.txt_Alıs_Fiyat1);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox2.Location = new System.Drawing.Point(308, 222);
+            this.groupBox2.Location = new System.Drawing.Point(293, 214);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(271, 100);
+            this.groupBox2.Size = new System.Drawing.Size(286, 100);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Alış Fiyatları";
@@ -224,7 +224,7 @@ namespace OnMuhasebe.StokModulu
             // 
             this.lbl_Birim.AutoSize = true;
             this.lbl_Birim.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_Birim.Location = new System.Drawing.Point(304, 431);
+            this.lbl_Birim.Location = new System.Drawing.Point(289, 431);
             this.lbl_Birim.Name = "lbl_Birim";
             this.lbl_Birim.Size = new System.Drawing.Size(41, 19);
             this.lbl_Birim.TabIndex = 17;
@@ -233,16 +233,16 @@ namespace OnMuhasebe.StokModulu
             // 
             // txt_Birim
             // 
-            this.txt_Birim.Location = new System.Drawing.Point(382, 431);
+            this.txt_Birim.Location = new System.Drawing.Point(367, 431);
             this.txt_Birim.Name = "txt_Birim";
-            this.txt_Birim.Size = new System.Drawing.Size(197, 21);
+            this.txt_Birim.Size = new System.Drawing.Size(212, 21);
             this.txt_Birim.TabIndex = 19;
             // 
             // lbl_Döviz_Cinsi
             // 
             this.lbl_Döviz_Cinsi.AutoSize = true;
             this.lbl_Döviz_Cinsi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_Döviz_Cinsi.Location = new System.Drawing.Point(304, 469);
+            this.lbl_Döviz_Cinsi.Location = new System.Drawing.Point(289, 469);
             this.lbl_Döviz_Cinsi.Name = "lbl_Döviz_Cinsi";
             this.lbl_Döviz_Cinsi.Size = new System.Drawing.Size(78, 19);
             this.lbl_Döviz_Cinsi.TabIndex = 20;
@@ -250,9 +250,9 @@ namespace OnMuhasebe.StokModulu
             // 
             // txt_Döviz
             // 
-            this.txt_Döviz.Location = new System.Drawing.Point(382, 470);
+            this.txt_Döviz.Location = new System.Drawing.Point(367, 470);
             this.txt_Döviz.Name = "txt_Döviz";
-            this.txt_Döviz.Size = new System.Drawing.Size(197, 21);
+            this.txt_Döviz.Size = new System.Drawing.Size(212, 21);
             this.txt_Döviz.TabIndex = 21;
             // 
             // groupBox3
@@ -353,9 +353,9 @@ namespace OnMuhasebe.StokModulu
             this.groupBox4.Controls.Add(this.txt_Satis_Fiyat2);
             this.groupBox4.Controls.Add(this.txt_Satis_Fiyat1);
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox4.Location = new System.Drawing.Point(308, 328);
+            this.groupBox4.Location = new System.Drawing.Point(293, 328);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(271, 100);
+            this.groupBox4.Size = new System.Drawing.Size(286, 100);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Satış Fiyatları";
@@ -392,9 +392,22 @@ namespace OnMuhasebe.StokModulu
             this.txt_Satis_Fiyat1.Size = new System.Drawing.Size(175, 25);
             this.txt_Satis_Fiyat1.TabIndex = 4;
             // 
+            // sb_Güncelle
+            // 
+            this.sb_Güncelle.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.sb_Güncelle.Appearance.Options.UseBackColor = true;
+            this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
+            this.sb_Güncelle.Location = new System.Drawing.Point(617, 405);
+            this.sb_Güncelle.Name = "sb_Güncelle";
+            this.sb_Güncelle.Size = new System.Drawing.Size(187, 62);
+            this.sb_Güncelle.TabIndex = 26;
+            this.sb_Güncelle.Text = "Güncelle";
+            // 
             // simpleButton1
             // 
+            this.simpleButton1.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Danger;
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseBackColor = true;
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.Enabled = false;
             this.simpleButton1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.record_32x32;
@@ -404,30 +417,27 @@ namespace OnMuhasebe.StokModulu
             this.simpleButton1.TabIndex = 27;
             this.simpleButton1.Text = "Stok Tanıtım Kartı";
             // 
-            // sb_Güncelle
-            // 
-            this.sb_Güncelle.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.updatetableofcontents_32x32;
-            this.sb_Güncelle.Location = new System.Drawing.Point(617, 405);
-            this.sb_Güncelle.Name = "sb_Güncelle";
-            this.sb_Güncelle.Size = new System.Drawing.Size(187, 62);
-            this.sb_Güncelle.TabIndex = 26;
-            this.sb_Güncelle.Text = "Güncelle";
-            // 
             // sb_Delete
             // 
+            this.sb_Delete.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Danger;
+            this.sb_Delete.Appearance.ForeColor = System.Drawing.Color.White;
+            this.sb_Delete.Appearance.Options.UseBackColor = true;
+            this.sb_Delete.Appearance.Options.UseForeColor = true;
             this.sb_Delete.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.removepivotfield_32x32;
-            this.sb_Delete.Location = new System.Drawing.Point(729, 328);
+            this.sb_Delete.Location = new System.Drawing.Point(710, 328);
             this.sb_Delete.Name = "sb_Delete";
-            this.sb_Delete.Size = new System.Drawing.Size(75, 61);
+            this.sb_Delete.Size = new System.Drawing.Size(94, 61);
             this.sb_Delete.TabIndex = 25;
             this.sb_Delete.Text = "Sil";
             // 
             // sb_Save
             // 
+            this.sb_Save.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Success;
+            this.sb_Save.Appearance.Options.UseBackColor = true;
             this.sb_Save.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.saveto_32x32;
             this.sb_Save.Location = new System.Drawing.Point(617, 328);
             this.sb_Save.Name = "sb_Save";
-            this.sb_Save.Size = new System.Drawing.Size(75, 61);
+            this.sb_Save.Size = new System.Drawing.Size(87, 61);
             this.sb_Save.TabIndex = 8;
             this.sb_Save.Text = "Kaydet";
             // 
@@ -435,12 +445,15 @@ namespace OnMuhasebe.StokModulu
             // 
             this.pictureEdit1.Location = new System.Drawing.Point(617, 31);
             this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Size = new System.Drawing.Size(204, 265);
             this.pictureEdit1.TabIndex = 22;
             // 
             // StokTanıtımKartı
             // 
+            this.Appearance.BackColor = System.Drawing.Color.LightGray;
+            this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 507);
@@ -464,7 +477,7 @@ namespace OnMuhasebe.StokModulu
             this.Controls.Add(this.txt_Stok_Kodu);
             this.Controls.Add(this.lbl_StokKodu);
             this.Name = "StokTanıtımKartı";
-            this.Text = "StokTanıtımKartı";
+            this.Text = "o z";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

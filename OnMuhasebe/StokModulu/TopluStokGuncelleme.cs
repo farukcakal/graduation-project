@@ -11,11 +11,16 @@ using System.Windows.Forms;
 
 namespace OnMuhasebe.StokModulu
 {
-    public partial class StokHareketleri : DevExpress.XtraEditors.XtraForm
+    public partial class TopluStokGuncelleme : DevExpress.XtraEditors.XtraForm
     {
-        public StokHareketleri()
+        public TopluStokGuncelleme()
         {
             InitializeComponent();
+        }
+
+        private void cb_Stok_Adi_Guncelle_CheckedChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

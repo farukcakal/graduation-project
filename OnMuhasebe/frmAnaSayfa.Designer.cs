@@ -169,7 +169,6 @@ namespace OnMuhasebe
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem7),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem8),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem9),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem10),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3)});
             this.barSubItem1.Name = "barSubItem1";
             // 
@@ -187,7 +186,7 @@ namespace OnMuhasebe
             // 
             // barButtonItem9
             // 
-            this.barButtonItem9.Caption = "Toplu Fiyat Güncelleme";
+            this.barButtonItem9.Caption = "Toplu Stok Güncelleme";
             this.barButtonItem9.Id = 10;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
