@@ -73,9 +73,9 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap addfile_32x32 {
+        internal static System.Drawing.Bitmap apply_16x16 {
             get {
-                object obj = ResourceManager.GetObject("addfile_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("apply_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +116,26 @@ namespace OnMuhasebe.Properties {
         internal static System.Drawing.Bitmap breakingchange_32x321 {
             get {
                 object obj = ResourceManager.GetObject("breakingchange_32x321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cancel_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("cancel_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cancel_16x161 {
+            get {
+                object obj = ResourceManager.GetObject("cancel_16x161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +193,29 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap deletelist2_32x32 {
+        internal static System.Drawing.Bitmap contentarrangeinrows_16x16 {
             get {
-                object obj = ResourceManager.GetObject("deletelist2_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("contentarrangeinrows_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap insert_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("insert_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap insert_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("insert_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +263,16 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap KtunLogo {
+            get {
+                object obj = ResourceManager.GetObject("KtunLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lookup_reference_16x16 {
             get {
                 object obj = ResourceManager.GetObject("lookup&reference_16x16", resourceCulture);
@@ -233,9 +283,9 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lookup_reference_32x32 {
+        internal static System.Drawing.Bitmap MaliyeBakanlıkLogo {
             get {
-                object obj = ResourceManager.GetObject("lookup&reference_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("MaliyeBakanlıkLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +373,9 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap record_32x32 {
+        internal static System.Drawing.Bitmap save_16x16 {
             get {
-                object obj = ResourceManager.GetObject("record_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("save_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +383,9 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap removepivotfield_32x32 {
+        internal static System.Drawing.Bitmap save_32x32 {
             get {
-                object obj = ResourceManager.GetObject("removepivotfield_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("save_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,69 +393,9 @@ namespace OnMuhasebe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap removepivotfield_32x321 {
+        internal static System.Drawing.Bitmap trash_16x16 {
             get {
-                object obj = ResourceManager.GetObject("removepivotfield_32x321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap removepivotfield_32x322 {
-            get {
-                object obj = ResourceManager.GetObject("removepivotfield_32x322", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap saveto_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("saveto_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap saveto_32x321 {
-            get {
-                object obj = ResourceManager.GetObject("saveto_32x321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap updatetableofcontents_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("updatetableofcontents_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap user_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("user_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap user_32x321 {
-            get {
-                object obj = ResourceManager.GetObject("user_32x321", resourceCulture);
+                object obj = ResourceManager.GetObject("trash_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
