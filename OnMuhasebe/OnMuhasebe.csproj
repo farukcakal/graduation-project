@@ -368,43 +368,10 @@
     <None Include="Resources\breakingchange_16x161.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\insert_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\insert_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cancel_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\apply_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cancel_16x161.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trash_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\contentarrangeinrows_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\clearall_16x16.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lookup&amp;reference_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\KtunLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MaliyeBakanlıkLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\record_32x32.png" />
