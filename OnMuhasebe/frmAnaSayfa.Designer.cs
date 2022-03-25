@@ -64,6 +64,7 @@ namespace OnMuhasebe
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,7 +119,8 @@ namespace OnMuhasebe
             // 
             this.barButtonItem1.Caption = "barButtonItem1";
             this.barButtonItem1.Id = 1;
-            this.barButtonItem1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources._416374_envelope_file_folder_mail_office_icon;
+            frmAnaSayfa frmAnaSayfa = this;
+            frmAnaSayfa.barButtonItem1.ImageOptions.Image = global::OnMuhasebe.Properties.Resources._416374_envelope_file_folder_mail_office_icon;
             this.barButtonItem1.Name = "barButtonItem1";
             // 
             // barButtonItem2
@@ -143,8 +145,8 @@ namespace OnMuhasebe
             // 
             this.barButtonItem5.Caption = "Stok Tanıtım Kartı";
             this.barButtonItem5.Id = 5;
-            this.barButtonItem5.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.pageinfo_16x16;
-            this.barButtonItem5.ImageOptions.LargeImage = global::OnMuhasebe.Properties.Resources.pageinfo_32x32;
+           // this.barButtonItem5.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.pageinfo_16x16;
+            //this.barButtonItem5.ImageOptions.LargeImage = global::OnMuhasebe.Properties.Resources.pageinfo_32x32;
             this.barButtonItem5.ImageOptions.LargeImageIndex = 1;
             this.barButtonItem5.Name = "barButtonItem5";
             // 
@@ -152,8 +154,8 @@ namespace OnMuhasebe
             // 
             this.barButtonItem6.Caption = "Stok Listesi";
             this.barButtonItem6.Id = 6;
-            this.barButtonItem6.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.chartsshowlegend_16x16;
-            this.barButtonItem6.ImageOptions.LargeImage = global::OnMuhasebe.Properties.Resources.chartsshowlegend_32x32;
+            //this.barButtonItem6.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.chartsshowlegend_16x16;
+            //this.barButtonItem6.ImageOptions.LargeImage = global::OnMuhasebe.Properties.Resources.chartsshowlegend_32x32;
             this.barButtonItem6.ImageOptions.LargeImageIndex = 2;
             this.barButtonItem6.Name = "barButtonItem6";
             // 
@@ -347,7 +349,8 @@ namespace OnMuhasebe
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
             this.ribbonPageGroup2,
-            this.ribbonPageGroup3});
+            this.ribbonPageGroup3,
+            this.ribbonPageGroup4});
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "Menü";
             // 
@@ -375,6 +378,11 @@ namespace OnMuhasebe
             this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem26);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Fatura İşlemleri";
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "ribbonPageGroup4";
             // 
             // frmAnaSayfa
             // 
@@ -430,6 +438,7 @@ namespace OnMuhasebe
         private DevExpress.XtraBars.BarButtonItem barButtonItem26;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
     }
 }
 
