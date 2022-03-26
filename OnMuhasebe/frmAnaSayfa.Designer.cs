@@ -60,6 +60,11 @@ namespace OnMuhasebe
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
+            this.Res32 = new System.Windows.Forms.ImageList(this.components);
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -110,7 +115,7 @@ namespace OnMuhasebe
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(1421, 158);
+            this.ribbonControl1.Size = new System.Drawing.Size(1368, 158);
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -252,9 +257,34 @@ namespace OnMuhasebe
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem12),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13)});
             this.barSubItem2.Name = "barSubItem2";
+            // barButtonItem11
+            // 
+            this.barButtonItem11.Caption = "barButtonItem11";
+            this.barButtonItem11.Id = 12;
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
+            // barSubItem2
+            // 
+            this.barSubItem2.Caption = "Stok Grup Kodları";
+            this.barSubItem2.Id = 13;
+            this.barSubItem2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem12),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13)});
+            this.barSubItem2.Name = "barSubItem2";
             // 
             // barButtonItem12
             // 
+            // barButtonItem12
+            // 
+            this.barButtonItem12.Caption = "Stok Grup Kod 1";
+            this.barButtonItem12.Id = 14;
+            this.barButtonItem12.Name = "barButtonItem12";
+            // 
+            // barButtonItem13
+            // 
+            this.barButtonItem13.Caption = "Stok Grup Kod 2";
+            this.barButtonItem13.Id = 15;
+            this.barButtonItem13.Name = "barButtonItem13";
             this.barButtonItem12.Caption = "Stok Grup Kod 1";
             this.barButtonItem12.Id = 14;
             this.barButtonItem12.Name = "barButtonItem12";
@@ -377,11 +407,45 @@ namespace OnMuhasebe
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Fatura İşlemleri";
             // 
+            // ribbonPage1
+            // 
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup1,
+            this.ribbonPageGroup2,
+            this.ribbonPageGroup3});
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "Menü";
+            // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem5);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barSubItem1);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.Text = "Stok Yönetimi";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem19);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem20);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barSubItem4);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "Cari Yönetimi";
+            // 
+            // ribbonPageGroup3
+            // 
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem23);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem24);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem25);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem26);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
+            this.ribbonPageGroup3.Text = "Fatura İşlemleri";
+            // 
             // frmAnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1421, 841);
+            this.ClientSize = new System.Drawing.Size(1368, 791);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "frmAnaSayfa";
             this.Ribbon = this.ribbonControl1;

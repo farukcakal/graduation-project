@@ -130,6 +130,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Kod5_Listele.Location = new System.Drawing.Point(11, 449);
             this.txt_Kod5_Listele.Name = "txt_Kod5_Listele";
             this.txt_Kod5_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Kod5_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Kod5_Listele.TabIndex = 15;
             // 
             // lbl_Kod5_Listele
@@ -147,6 +148,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Kod4_Listele.Location = new System.Drawing.Point(11, 383);
             this.txt_Kod4_Listele.Name = "txt_Kod4_Listele";
             this.txt_Kod4_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Kod4_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Kod4_Listele.TabIndex = 13;
             // 
             // lbl_Kod4_Listele
@@ -164,6 +166,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Kod3_Listele.Location = new System.Drawing.Point(11, 318);
             this.txt_Kod3_Listele.Name = "txt_Kod3_Listele";
             this.txt_Kod3_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Kod3_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Kod3_Listele.TabIndex = 11;
             // 
             // lbl_Kod3_Listele
@@ -181,6 +184,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Kod2_Listele.Location = new System.Drawing.Point(11, 252);
             this.txt_Kod2_Listele.Name = "txt_Kod2_Listele";
             this.txt_Kod2_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Kod2_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Kod2_Listele.TabIndex = 9;
             // 
             // lbl_Kod2_Listele
@@ -198,6 +202,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Kod1_Listele.Location = new System.Drawing.Point(11, 179);
             this.txt_Kod1_Listele.Name = "txt_Kod1_Listele";
             this.txt_Kod1_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Kod1_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Kod1_Listele.TabIndex = 7;
             // 
             // lbl_Kod1_Listele
@@ -215,6 +220,7 @@ namespace OnMuhasebe.StokModulu
             this.txt_Stok_Adi_Listele.Location = new System.Drawing.Point(11, 110);
             this.txt_Stok_Adi_Listele.Name = "txt_Stok_Adi_Listele";
             this.txt_Stok_Adi_Listele.Size = new System.Drawing.Size(156, 20);
+            this.txt_Stok_Adi_Listele.Size = new System.Drawing.Size(170, 20);
             this.txt_Stok_Adi_Listele.TabIndex = 5;
             // 
             // lbl_Stok_Adı_Listele
@@ -250,6 +256,7 @@ namespace OnMuhasebe.StokModulu
             this.ttx_Stok_Kodu_Listele.Location = new System.Drawing.Point(11, 38);
             this.ttx_Stok_Kodu_Listele.Name = "ttx_Stok_Kodu_Listele";
             this.ttx_Stok_Kodu_Listele.Size = new System.Drawing.Size(156, 20);
+            this.ttx_Stok_Kodu_Listele.Size = new System.Drawing.Size(170, 20);
             this.ttx_Stok_Kodu_Listele.TabIndex = 1;
             // 
             // lbl_Stok_Kodu_Listele
