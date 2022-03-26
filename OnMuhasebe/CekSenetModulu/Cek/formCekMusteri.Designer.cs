@@ -75,42 +75,47 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
+            this.labelControl1.Location = new System.Drawing.Point(10, 10);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(50, 16);
+            this.labelControl1.Size = new System.Drawing.Size(42, 13);
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "Belge No";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 43);
+            this.labelControl2.Location = new System.Drawing.Point(10, 35);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(40, 16);
+            this.labelControl2.Size = new System.Drawing.Size(34, 13);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "Çek No";
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(12, 74);
+            this.labelControl3.Location = new System.Drawing.Point(10, 60);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(55, 16);
+            this.labelControl3.Size = new System.Drawing.Size(46, 13);
             this.labelControl3.TabIndex = 2;
             this.labelControl3.Text = "Cari Kodu";
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(12, 108);
+            this.labelControl4.Location = new System.Drawing.Point(10, 88);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(45, 16);
+            this.labelControl4.Size = new System.Drawing.Size(37, 13);
             this.labelControl4.TabIndex = 2;
             this.labelControl4.Text = "Cari Adı";
             // 
             // raAsil
             // 
             this.raAsil.AutoSize = true;
-            this.raAsil.Location = new System.Drawing.Point(84, 133);
+            this.raAsil.Location = new System.Drawing.Point(72, 108);
+            this.raAsil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.raAsil.Name = "raAsil";
-            this.raAsil.Size = new System.Drawing.Size(74, 21);
+            this.raAsil.Size = new System.Drawing.Size(62, 17);
             this.raAsil.TabIndex = 4;
             this.raAsil.TabStop = true;
             this.raAsil.Text = "Asıl Çek";
@@ -119,9 +124,10 @@ namespace OnMuhasebe.CekSenetModulu
             // raCiro
             // 
             this.raCiro.AutoSize = true;
-            this.raCiro.Location = new System.Drawing.Point(187, 133);
+            this.raCiro.Location = new System.Drawing.Point(160, 108);
+            this.raCiro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.raCiro.Name = "raCiro";
-            this.raCiro.Size = new System.Drawing.Size(80, 21);
+            this.raCiro.Size = new System.Drawing.Size(65, 17);
             this.raCiro.TabIndex = 5;
             this.raCiro.TabStop = true;
             this.raCiro.Text = "Ciro Çek";
@@ -129,49 +135,55 @@ namespace OnMuhasebe.CekSenetModulu
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(12, 163);
+            this.labelControl5.Location = new System.Drawing.Point(10, 132);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(59, 16);
+            this.labelControl5.Size = new System.Drawing.Size(48, 13);
             this.labelControl5.TabIndex = 2;
             this.labelControl5.Text = "Asıl Borçlu";
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(12, 220);
+            this.labelControl6.Location = new System.Drawing.Point(10, 179);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(34, 16);
+            this.labelControl6.Size = new System.Drawing.Size(29, 13);
             this.labelControl6.TabIndex = 2;
             this.labelControl6.Text = "Banka";
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(12, 248);
+            this.labelControl7.Location = new System.Drawing.Point(10, 202);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(29, 16);
+            this.labelControl7.Size = new System.Drawing.Size(24, 13);
             this.labelControl7.TabIndex = 2;
             this.labelControl7.Text = "Şube";
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(12, 276);
+            this.labelControl8.Location = new System.Drawing.Point(10, 224);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(54, 16);
+            this.labelControl8.Size = new System.Drawing.Size(46, 13);
             this.labelControl8.TabIndex = 2;
             this.labelControl8.Text = "Hesap No";
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(12, 304);
+            this.labelControl10.Location = new System.Drawing.Point(10, 247);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(31, 16);
+            this.labelControl10.Size = new System.Drawing.Size(26, 13);
             this.labelControl10.TabIndex = 2;
             this.labelControl10.Text = "Tutar";
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(12, 332);
+            this.labelControl11.Location = new System.Drawing.Point(10, 270);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(51, 16);
+            this.labelControl11.Size = new System.Drawing.Size(41, 13);
             this.labelControl11.TabIndex = 2;
             this.labelControl11.Text = "Açıklama";
             // 
@@ -181,9 +193,10 @@ namespace OnMuhasebe.CekSenetModulu
             this.panelControl1.Controls.Add(this.btnKaydet);
             this.panelControl1.Controls.Add(this.btnSil);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelControl1.Location = new System.Drawing.Point(0, 473);
+            this.panelControl1.Location = new System.Drawing.Point(0, 384);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(592, 39);
+            this.panelControl1.Size = new System.Drawing.Size(507, 32);
             this.panelControl1.TabIndex = 13;
             // 
             // btnYeni
@@ -191,9 +204,10 @@ namespace OnMuhasebe.CekSenetModulu
             this.btnYeni.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
             this.btnYeni.Appearance.Options.UseBackColor = true;
             this.btnYeni.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.insert_16x16;
-            this.btnYeni.Location = new System.Drawing.Point(286, 5);
+            this.btnYeni.Location = new System.Drawing.Point(233, 4);
+            this.btnYeni.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnYeni.Name = "btnYeni";
-            this.btnYeni.Size = new System.Drawing.Size(94, 29);
+            this.btnYeni.Size = new System.Drawing.Size(93, 24);
             this.btnYeni.TabIndex = 0;
             this.btnYeni.Text = "Yeni";
             // 
@@ -204,9 +218,10 @@ namespace OnMuhasebe.CekSenetModulu
             this.btnKaydet.AppearanceDisabled.BackColor = System.Drawing.Color.Transparent;
             this.btnKaydet.AppearanceDisabled.Options.UseBackColor = true;
             this.btnKaydet.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.save_16x16;
-            this.btnKaydet.Location = new System.Drawing.Point(386, 5);
+            this.btnKaydet.Location = new System.Drawing.Point(331, 4);
+            this.btnKaydet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(94, 29);
+            this.btnKaydet.Size = new System.Drawing.Size(81, 24);
             this.btnKaydet.TabIndex = 1;
             this.btnKaydet.Text = "Kaydet";
             // 
@@ -215,111 +230,124 @@ namespace OnMuhasebe.CekSenetModulu
             this.btnSil.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Danger;
             this.btnSil.Appearance.Options.UseBackColor = true;
             this.btnSil.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.trash_16x16;
-            this.btnSil.Location = new System.Drawing.Point(486, 5);
+            this.btnSil.Location = new System.Drawing.Point(417, 4);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(94, 29);
+            this.btnSil.Size = new System.Drawing.Size(81, 24);
             this.btnSil.TabIndex = 2;
             this.btnSil.Text = "Sil";
             // 
             // buttonEdit2
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(84, 71);
+            this.buttonEdit2.Location = new System.Drawing.Point(72, 58);
+            this.buttonEdit2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(482, 22);
+            this.buttonEdit2.Size = new System.Drawing.Size(413, 20);
             this.buttonEdit2.TabIndex = 2;
             // 
             // txtCariAdi
             // 
-            this.txtCariAdi.Location = new System.Drawing.Point(84, 105);
+            this.txtCariAdi.Location = new System.Drawing.Point(72, 85);
+            this.txtCariAdi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCariAdi.Name = "txtCariAdi";
-            this.txtCariAdi.Size = new System.Drawing.Size(482, 22);
+            this.txtCariAdi.Size = new System.Drawing.Size(413, 20);
             this.txtCariAdi.TabIndex = 3;
             // 
             // txtAsilBorclu
             // 
-            this.txtAsilBorclu.Location = new System.Drawing.Point(84, 160);
+            this.txtAsilBorclu.Location = new System.Drawing.Point(72, 130);
+            this.txtAsilBorclu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAsilBorclu.Name = "txtAsilBorclu";
-            this.txtAsilBorclu.Size = new System.Drawing.Size(482, 22);
+            this.txtAsilBorclu.Size = new System.Drawing.Size(413, 20);
             this.txtAsilBorclu.TabIndex = 6;
             // 
             // txtTutar
             // 
-            this.txtTutar.Location = new System.Drawing.Point(84, 302);
+            this.txtTutar.Location = new System.Drawing.Point(72, 245);
+            this.txtTutar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTutar.Name = "txtTutar";
-            this.txtTutar.Size = new System.Drawing.Size(183, 22);
+            this.txtTutar.Size = new System.Drawing.Size(157, 20);
             this.txtTutar.TabIndex = 11;
             // 
             // txtHesapNo
             // 
-            this.txtHesapNo.Location = new System.Drawing.Point(84, 274);
+            this.txtHesapNo.Location = new System.Drawing.Point(72, 223);
+            this.txtHesapNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHesapNo.Name = "txtHesapNo";
-            this.txtHesapNo.Size = new System.Drawing.Size(183, 22);
+            this.txtHesapNo.Size = new System.Drawing.Size(157, 20);
             this.txtHesapNo.TabIndex = 10;
             // 
             // txtSube
             // 
-            this.txtSube.Location = new System.Drawing.Point(84, 246);
+            this.txtSube.Location = new System.Drawing.Point(72, 200);
+            this.txtSube.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSube.Name = "txtSube";
-            this.txtSube.Size = new System.Drawing.Size(183, 22);
+            this.txtSube.Size = new System.Drawing.Size(157, 20);
             this.txtSube.TabIndex = 9;
             // 
             // txtBanka
             // 
-            this.txtBanka.Location = new System.Drawing.Point(84, 218);
+            this.txtBanka.Location = new System.Drawing.Point(72, 177);
+            this.txtBanka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBanka.Name = "txtBanka";
-            this.txtBanka.Size = new System.Drawing.Size(183, 22);
+            this.txtBanka.Size = new System.Drawing.Size(157, 20);
             this.txtBanka.TabIndex = 8;
             // 
             // txtCekNo
             // 
-            this.txtCekNo.Location = new System.Drawing.Point(84, 41);
+            this.txtCekNo.Location = new System.Drawing.Point(72, 33);
+            this.txtCekNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCekNo.Name = "txtCekNo";
-            this.txtCekNo.Size = new System.Drawing.Size(183, 22);
+            this.txtCekNo.Size = new System.Drawing.Size(157, 20);
             this.txtCekNo.TabIndex = 1;
             // 
             // TxtAciklama
             // 
-            this.TxtAciklama.Location = new System.Drawing.Point(84, 330);
+            this.TxtAciklama.Location = new System.Drawing.Point(72, 268);
+            this.TxtAciklama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxtAciklama.Name = "TxtAciklama";
-            this.TxtAciklama.Size = new System.Drawing.Size(482, 139);
+            this.TxtAciklama.Size = new System.Drawing.Size(413, 113);
             this.TxtAciklama.TabIndex = 12;
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(12, 192);
+            this.labelControl9.Location = new System.Drawing.Point(10, 156);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(66, 16);
+            this.labelControl9.Size = new System.Drawing.Size(53, 13);
             this.labelControl9.TabIndex = 2;
             this.labelControl9.Text = "Vade Tarihi";
             // 
             // txtVadeTarihi
             // 
             this.txtVadeTarihi.EditValue = null;
-            this.txtVadeTarihi.Location = new System.Drawing.Point(84, 190);
+            this.txtVadeTarihi.Location = new System.Drawing.Point(72, 154);
+            this.txtVadeTarihi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtVadeTarihi.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtVadeTarihi.Size = new System.Drawing.Size(183, 22);
+            this.txtVadeTarihi.Size = new System.Drawing.Size(157, 20);
             this.txtVadeTarihi.TabIndex = 7;
             // 
             // buttonEdit1
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(84, 13);
+            this.buttonEdit1.Location = new System.Drawing.Point(72, 11);
+            this.buttonEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonEdit1.Name = "buttonEdit1";
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(183, 22);
+            this.buttonEdit1.Size = new System.Drawing.Size(157, 20);
             this.buttonEdit1.TabIndex = 2;
             // 
             // formCekMusteri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 512);
+            this.ClientSize = new System.Drawing.Size(507, 416);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.txtVadeTarihi);
             this.Controls.Add(this.raCiro);
@@ -345,6 +373,7 @@ namespace OnMuhasebe.CekSenetModulu
             this.Controls.Add(this.txtBanka);
             this.Controls.Add(this.txtCekNo);
             this.Controls.Add(this.TxtAciklama);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "formCekMusteri";
