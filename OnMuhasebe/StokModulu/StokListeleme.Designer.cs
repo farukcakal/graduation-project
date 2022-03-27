@@ -227,7 +227,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // btn_Clear_Listele
             // 
-            this.btn_Clear_Listele.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.clearpivottable_32x32;
+           // this.btn_Clear_Listele.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.clearpivottable_32x32;
             this.btn_Clear_Listele.Location = new System.Drawing.Point(92, 492);
             this.btn_Clear_Listele.Name = "btn_Clear_Listele";
             this.btn_Clear_Listele.Size = new System.Drawing.Size(75, 34);
@@ -236,7 +236,7 @@ namespace OnMuhasebe.StokModulu
             // 
             // btn_Seaerch_Listele
             // 
-            this.btn_Seaerch_Listele.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.find_32x32;
+            //this.btn_Seaerch_Listele.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.find_32x32;
             this.btn_Seaerch_Listele.Location = new System.Drawing.Point(11, 492);
             this.btn_Seaerch_Listele.Name = "btn_Seaerch_Listele";
             this.btn_Seaerch_Listele.Size = new System.Drawing.Size(75, 34);

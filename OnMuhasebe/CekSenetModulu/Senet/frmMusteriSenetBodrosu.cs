@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OnMuhasebe.StokModulu
+namespace OnMuhasebe.CekSenetModulu.Senet
 {
-    public partial class StokHareketleri : DevExpress.XtraEditors.XtraForm
+    public partial class frmMusteriSenetBodrosu : DevExpress.XtraEditors.XtraForm
     {
-        public StokHareketleri()
+        public frmMusteriSenetBodrosu()
         {
             InitializeComponent();
         }

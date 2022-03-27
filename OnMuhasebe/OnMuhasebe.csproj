@@ -12,6 +12,21 @@
     <AssemblyName>OnMuhasebe</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,13 +49,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.Desktop.v20.1" />
     <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v20.1" />
     <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankaModulu\Class1.cs" />
+    <Compile Include="CariModulu\CariHareketKayıtları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\CariHareketKayıtları.Designer.cs">
+      <DependentUpon>CariHareketKayıtları.cs</DependentUpon>
+    </Compile>
     <Compile Include="CariModulu\Class1.cs" />
     <Compile Include="CariModulu\Form1.cs">
       <SubType>Form</SubType>
@@ -61,23 +99,174 @@
     <Compile Include="CariModulu\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="CariModulu\TopluCariAcma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariModulu\TopluCariAcma.Designer.cs">
+      <DependentUpon>TopluCariAcma.cs</DependentUpon>
+    </Compile>
     <Compile Include="CekSenetModulu\Class1.cs" />
+    <Compile Include="CekSenetModulu\Cek\formCekMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Cek\formCekMusteri.Designer.cs">
+      <DependentUpon>formCekMusteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CekSenetModulu\Cek\formMusteriCekBodrosu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Cek\formMusteriCekBodrosu.Designer.cs">
+      <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.Designer.cs">
+      <DependentUpon>frmMusteriSenetBodrosu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmSenetMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CekSenetModulu\Senet\frmSenetMusteri.Designer.cs">
+      <DependentUpon>frmSenetMusteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FaturaModulu\Class1.cs" />
+    <Compile Include="FaturaModulu\FaturaCıktısı\rapSatisFaturasi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FaturaModulu\FaturaCıktısı\rapSatisFaturası.Designer.cs">
+      <DependentUpon>rapSatisFaturasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaturaModulu\frmSatisIadeFaturasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaturaModulu\frmSatisIadeFaturasi.Designer.cs">
+      <DependentUpon>frmSatisIadeFaturasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaturaModulu\frmSatisFaturasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaturaModulu\frmSatisFaturasi.Designer.cs">
+      <DependentUpon>frmSatisFaturasi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAnaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAnaSayfa.Designer.cs">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="KullanıcıModul\KullaniciListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullanıcıModul\KullaniciListesi.Designer.cs">
+      <DependentUpon>KullaniciListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıModul\KullanıcıEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullanıcıModul\KullanıcıEkle.Designer.cs">
+      <DependentUpon>KullanıcıEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="StokModulu\Class1.cs" />
+    <Compile Include="StokModulu\StokHareketKayıtları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokHareketKayıtları.Designer.cs">
+      <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKod2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKod2.Designer.cs">
+      <DependentUpon>StokKod2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKod4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKod4.Designer.cs">
+      <DependentUpon>StokKod4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKod5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKod5.Designer.cs">
+      <DependentUpon>StokKod5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu3.Designer.cs">
+      <DependentUpon>StokKodu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokKodu1.Designer.cs">
+      <DependentUpon>StokKodu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokListeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokListeleme.Designer.cs">
+      <DependentUpon>StokListeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\StokTanıtımKartı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\StokTanıtımKartı.Designer.cs">
+      <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
+    </Compile>
     <Compile Include="StokModulu\test.cs" />
+    <Compile Include="StokModulu\TopluStokGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\TopluStokGuncelleme.Designer.cs">
+      <DependentUpon>TopluStokGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokModulu\TopluStokAcma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokModulu\TopluStokAcma.Designer.cs">
+      <DependentUpon>TopluStokAcma.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CariModulu\CariHareketKayıtları.resx">
+      <DependentUpon>CariHareketKayıtları.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CariModulu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Cek\formCekMusteri.resx">
+      <DependentUpon>formCekMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Cek\formMusteriCekBodrosu.resx">
+      <DependentUpon>formMusteriCekBodrosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Senet\frmMusteriSenetBodrosu.resx">
+      <DependentUpon>frmMusteriSenetBodrosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CekSenetModulu\Senet\frmSenetMusteri.resx">
+      <DependentUpon>frmSenetMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturaModulu\FaturaCıktısı\rapSatisFaturası.resx">
+      <DependentUpon>rapSatisFaturasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturaModulu\frmSatisIadeFaturasi.resx">
+      <DependentUpon>frmSatisIadeFaturasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturaModulu\frmSatisFaturasi.resx">
+      <DependentUpon>frmSatisFaturasi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAnaSayfa.resx">
       <DependentUpon>frmAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıModul\KullaniciListesi.resx">
+      <DependentUpon>KullaniciListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıModul\KullanıcıEkle.resx">
+      <DependentUpon>KullanıcıEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -90,6 +279,36 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StokModulu\StokHareketKayıtları.resx">
+      <DependentUpon>StokHareketKayıtları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKod2.resx">
+      <DependentUpon>StokKod2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKod4.resx">
+      <DependentUpon>StokKod4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKod5.resx">
+      <DependentUpon>StokKod5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKodu3.resx">
+      <DependentUpon>StokKodu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokKodu1.resx">
+      <DependentUpon>StokKodu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokListeleme.resx">
+      <DependentUpon>StokListeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\StokTanıtımKartı.resx">
+      <DependentUpon>StokTanıtımKartı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\TopluStokGuncelleme.resx">
+      <DependentUpon>TopluStokGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokModulu\TopluStokAcma.resx">
+      <DependentUpon>TopluStokAcma.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -100,6 +319,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\416374_envelope_file_folder_mail_office_icon.png" />
@@ -163,6 +394,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\breakingchange_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveto_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removepivotfield_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatetableofcontents_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveto_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removepivotfield_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removepivotfield_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearall_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
