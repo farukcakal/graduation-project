@@ -1,68 +1,19 @@
-# graduation-project
+# Ön Muhasebe Otomasyonu
 
-## Yapılacak Listesi
---------
-###### Stok İşlemleri
---------
-###### Cari işlemleri
---------
-###### Satış faturası işlemleri
---------
-###### Cari hareket işlemleri
---------
-###### Stok hareket işlemleri
---------
-###### Kasa işlemleri
---------
-###### Banka işlemleri
---------
-###### Çek işlemleri
---------
-###### Senet işlemleri
---------
-###### Kapalı satış faturası işlemleri
---------
-###### Satış iade faturası işlemleri
---------
-###### Alış ve alış iade faturası işlemleri
---------
-###### Raporlar
---------
-###### Kullanıcı ve Kullanıcı yetki işlemleri
---------
 
-Görevler
---------
-Muhammed ve Veysel:<br/>
--[ ] Cari İşlemleri<br/>
--[ ] Cari Hareket İşlemleri<br/>
--[ ] Kasa İşlemleri<br/>
--[ ] Banka İşlemleri<br/>
--[ ] Çek İşlemleri<br/>
--[ ] Senet İşlemleri<br/>
--[ ] Rapor İşlemleri<br/>
---------
-Furkan ve Faruk:<br/>
--[ ] Stok İşlemleri<br/>
--[ ] Stok Hareket İşlemleri<br/>
--[ ] Satış ve Satış İade Faturası İşlemleri<br/>
--[ ] Alış ve Alış İade Faturası İşlemleri<br/>
--[ ] Kapalı Satış Faturası İşlemleri<br/>
--[ ] Cari İşlemleri<br/>
--[ ] Login formu<br/>
---------
-Sadece Faruk:<br/>
--[ ] Bütün ana form işlemleri<br/>
--[ ] Kullanıcı ve Kullanıcı yetki işlemleri
---------
+## Proje Tanımı
+Bir işletmenin stok, cari ve faturalarının durumunu incelemesine olanak sağlayan program.
 
-## Proje genelinde uyulacak kurallar
---------
-###### Proje genelinde oluşturulan form, class ve formlara eklenecek componentların isimleri camel case standardına uyularak isimlendirilecek
-###### bkz. https://medium.com/@10ursabanoglu/yaz%C4%B1l%C4%B1mda-i%CC%87simlendirme-%C3%A7e%C5%9Fitleri-d13691581639
---------
-###### Kesinlikle habersiz master'a push atılmayacak.
---------
-###### Tasarlanacak formlar aşağıdaki örnek form tasarımının hatlarına bağlı kalmaya çalışarak tasarlanacak.
---------![Ekran görüntüsü 2022-03-15 222057](https://user-images.githubusercontent.com/17998430/158455285-d0e47f4b-594b-4022-993e-ba8fb53b4cd6.jpg)
-![Ekran görüntüsü 2022-03-15 222142](https://user-images.githubusercontent.com/17998430/158455287-a886cae1-04f7-4756-bc98-6802ea1eae14.jpg)
+## Sorumlu Öğretim Üyesi
+[Dr. Öğr. Üyesi LEVENT CİVCİK](https://www.ktun.edu.tr/tr/Universite/PersonelBilgi/?prsnl=ThTpRbzTYhxIP7e5Nmn91NtlKc58rlbUoreXp/8jaQs=)
+
+## Geliştirenler
+- [Faruk ÇAKAL - 205035041](https://github.com/farukcakal)
+- [Veysel Enes Yiğitoğlu - 205035053](https://github.com/veyseleness)
+- [Muhammet Furkan Afşar - 205035051](https://github.com/mfafsar)
+- [Muhammed Argun - 205035013](https://github.com/muhammed-argun)
+
+## Altyapı
+- [MSSQL](https://www.microsoft.com/tr-tr/sql-server/sql-server-2019)
+- [C#](https://docs.microsoft.com/tr-tr/dotnet/csharp/)
+- [DevExpress](https://www.devexpress.com/)
